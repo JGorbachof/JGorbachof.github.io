@@ -78,6 +78,7 @@ function renderProjects() {
       </div>
       <h3>${p.title}</h3>
       <p>${p.summary || ""}</p>
+      ${p.credits ? `<p class="credits">${p.credits}</p>` : ""}
       <div class="meta">
         ${p.game ? `<span>${p.game}</span>` : ""}
         ${p.currentVersion ? `<span>• ${p.currentVersion}</span>` : ""}
