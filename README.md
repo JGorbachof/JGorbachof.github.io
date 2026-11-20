@@ -27,6 +27,7 @@ Current layout:
 **Victoria 3**
 - Stockpile Economy Continued → `#stockpile-economy`
 - Stockpile Economy Continued - Tech & Res → `#stockpile-tech-res`
+- Private Sector Construction Continued → `#private-sector-construction`
 
 **Workers & Resources: Soviet Republic**
 - Smart Workforce - Auto-Close Full Factories → `#smart-workforce`

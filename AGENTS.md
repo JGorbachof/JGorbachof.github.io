@@ -21,6 +21,7 @@ Current layout:
 **VICTORIA 3 — SUPPORT & REPORTS**
 - `#stockpile-economy` — Stockpile Economy Continued
 - `#stockpile-tech-res` — Stockpile Economy Continued - Tech & Res
+- `#private-sector-construction` — Private Sector Construction Continued
 
 **WORKERS & RESOURCES — SUPPORT & REPORTS**
 - `#smart-workforce` — Smart Workforce - Auto-Close Full Factories

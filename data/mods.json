@@ -38,6 +38,25 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
+    "title": "Private Sector Construction Continued",
+    "imageUrl": "assets/private-sector-construction-continued.png",
+    "game": "Victoria 3",
+    "type": "Revived mod",
+    "status": "Current",
+    "summary": "An unofficial continuation of Dingbat32's Private Sector Construction for Victoria 3 1.15.x, preserving privately owned construction sectors, local construction goods, Construction Regulators, percentage-based government construction spending, AI support, and PSC's diminishing-returns state construction efficiency model.",
+    "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3843134572",
+    "sourceUrl": "",
+    "originalUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3420714166",
+    "projectUrl": "",
+    "currentVersion": "Victoria 3 1.15.2",
+    "lastVerified": "2026-11-20",
+    "featured": false,
+    "credits": "Original Private Sector Construction by Dingbat32. Original source: github.com/dingbat32/Private-Sector-Construction.",
+    "discordSupportChannel": "private-sector-construction",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573451594832289862",
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+  },
+  {
     "title": "Smart Workforce - Auto-Close Full Factories",
     "imageUrl": "assets/smart-workforce.jpg",
     "game": "Workers & Resources: Soviet Republic",
