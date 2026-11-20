@@ -84,10 +84,24 @@ h3 { font-size: 21px; letter-spacing: -.015em; }
   display: flex;
   flex-direction: column;
   min-height: 270px;
-  padding: 22px;
+  padding: 0;
+  overflow: hidden;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--panel);
+}
+.card-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--line);
+}
+.card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 22px;
 }
 .card.featured { grid-column: span 2; }
 .card-top, .meta, .card-links { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }

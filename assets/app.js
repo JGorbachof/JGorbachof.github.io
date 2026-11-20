@@ -72,6 +72,8 @@ function renderProjects() {
 
   grid.innerHTML = projects.map(p => `
     <article class="card ${p.featured ? "featured" : ""}">
+      ${p.imageUrl ? `<img class="card-image" src="${p.imageUrl}" alt="${p.title} preview">` : ""}
+      <div class="card-body">
       <div class="card-top">
         <span class="badge">${p.type || "Project"}</span>
         <span class="badge status">${p.status || "Active"}</span>
@@ -89,6 +91,7 @@ function renderProjects() {
         ${link("Source", p.sourceUrl)}
         ${link("Original mod", p.originalUrl)}
         ${link("Project page", p.projectUrl)}
+      </div>
       </div>
     </article>
   `).join("");
