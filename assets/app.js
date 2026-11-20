@@ -1,7 +1,8 @@
 const state = { projects: [], filter: "All games" };
+const assetVersion = "20261120-3";
 
 async function loadJson(path) {
-  const response = await fetch(path, { cache: "no-store" });
+  const response = await fetch(`${path}?v=${assetVersion}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`Could not load ${path}`);
   return response.json();
 }
@@ -38,6 +39,11 @@ function projectGames(projects) {
   return ["All games", ...new Set(projects.map(p => p.game).filter(Boolean))];
 }
 
+function gameLabel(game) {
+  if (game === "Workers & Resources: Soviet Republic") return "Workers & Resources";
+  return game;
+}
+
 function renderFilters() {
   const box = document.getElementById("filters");
   box.innerHTML = "";
@@ -45,7 +51,7 @@ function renderFilters() {
     const button = document.createElement("button");
     button.className = "filter" + (state.filter === game ? " active" : "");
     button.type = "button";
-    button.textContent = game;
+    button.textContent = gameLabel(game);
     button.addEventListener("click", () => {
       state.filter = game;
       renderFilters();
@@ -60,41 +66,64 @@ function link(label, url) {
   return `<a href="${url}" target="_blank" rel="noopener">${label}</a>`;
 }
 
+function cardMarkup(p) {
+  return `
+    <article class="card ${p.featured ? "featured" : ""}">
+      ${p.imageUrl ? `<img class="card-image" src="${p.imageUrl}" alt="${p.title} preview" loading="lazy">` : ""}
+      <div class="card-body">
+        <div class="card-top">
+          <span class="badge">${p.type || "Project"}</span>
+          <span class="badge status">${p.status || "Active"}</span>
+        </div>
+        <h3>${p.title}</h3>
+        <p>${p.summary || ""}</p>
+        ${p.credits ? `<p class="credits">${p.credits}</p>` : ""}
+        <div class="meta">
+          ${p.currentVersion ? `<span>${p.currentVersion}</span>` : ""}
+          ${p.lastVerified ? `<span>&bull; Verified ${p.lastVerified}</span>` : ""}
+        </div>
+        <div class="card-links">
+          ${link("Steam Workshop", p.steamUrl)}
+          ${link("Source", p.sourceUrl)}
+          ${link("Original mod", p.originalUrl)}
+          ${link("Project page", p.projectUrl)}
+        </div>
+      </div>
+    </article>
+  `;
+}
+
 function renderProjects() {
-  const grid = document.getElementById("project-grid");
+  const catalog = document.getElementById("project-grid");
   const projects = state.filter === "All games"
     ? state.projects
     : state.projects.filter(p => p.game === state.filter);
 
   if (!projects.length) {
-    grid.innerHTML = '<p class="muted">No projects in this category yet.</p>';
+    catalog.innerHTML = '<p class="muted">No projects in this category yet.</p>';
     return;
   }
 
-  grid.innerHTML = projects.map(p => `
-    <article class="card ${p.featured ? "featured" : ""}">
-      ${p.imageUrl ? `<img class="card-image" src="${p.imageUrl}" alt="${p.title} preview">` : ""}
-      <div class="card-body">
-      <div class="card-top">
-        <span class="badge">${p.type || "Project"}</span>
-        <span class="badge status">${p.status || "Active"}</span>
+  const groups = new Map();
+  for (const project of projects) {
+    const game = project.game || "Other";
+    if (!groups.has(game)) groups.set(game, []);
+    groups.get(game).push(project);
+  }
+
+  catalog.innerHTML = [...groups.entries()].map(([game, items]) => `
+    <section class="game-group">
+      <div class="game-heading">
+        <div>
+          <p class="eyebrow">GAME</p>
+          <h3 class="game-title">${game}</h3>
+        </div>
+        <span class="game-count">${items.length} ${items.length === 1 ? "project" : "projects"}</span>
       </div>
-      <h3>${p.title}</h3>
-      <p>${p.summary || ""}</p>
-      ${p.credits ? `<p class="credits">${p.credits}</p>` : ""}
-      <div class="meta">
-        ${p.game ? `<span>${p.game}</span>` : ""}
-        ${p.currentVersion ? `<span>• ${p.currentVersion}</span>` : ""}
-        ${p.lastVerified ? `<span>• Verified ${p.lastVerified}</span>` : ""}
+      <div class="project-grid">
+        ${items.map(cardMarkup).join("")}
       </div>
-      <div class="card-links">
-        ${link("Steam Workshop", p.steamUrl)}
-        ${link("Source", p.sourceUrl)}
-        ${link("Original mod", p.originalUrl)}
-        ${link("Project page", p.projectUrl)}
-      </div>
-      </div>
-    </article>
+    </section>
   `).join("");
 }
 
@@ -114,4 +143,5 @@ async function boot() {
     console.error(error);
   }
 }
+
 boot();

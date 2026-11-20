@@ -79,6 +79,30 @@ h3 { font-size: 21px; letter-spacing: -.015em; }
   cursor: pointer;
 }
 .filter.active { color: var(--text); background: var(--panel-2); }
+.project-catalog { display: grid; gap: 48px; }
+.game-group {
+  padding-top: 4px;
+}
+.game-group + .game-group {
+  padding-top: 42px;
+  border-top: 1px solid var(--line);
+}
+.game-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+.game-title {
+  font-size: clamp(24px, 3vw, 34px);
+  letter-spacing: -.025em;
+}
+.game-count {
+  color: var(--muted);
+  font-size: 13px;
+  white-space: nowrap;
+}
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 16px; }
 .card {
   display: flex;
