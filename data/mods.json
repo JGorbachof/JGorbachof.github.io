@@ -14,5 +14,37 @@
     "lastVerified": "2026-11-20",
     "featured": true,
     "credits": "Original mod by Anbeeld (Ivan Neustroev)"
+  },
+  {
+    "title": "Smart Workforce - Auto-Close Full Factories",
+    "imageUrl": "assets/smart-workforce.jpg",
+    "game": "Workers & Resources: Soviet Republic",
+    "type": "Utility",
+    "status": "Current",
+    "summary": "Optional per-building workforce controls that automatically stop accepting workers when output is blocked or required production inputs are unavailable, then reopen the building when the condition clears.",
+    "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839982908",
+    "sourceUrl": "",
+    "originalUrl": "",
+    "projectUrl": "",
+    "currentVersion": "v1.2 • Game 1.1.1.13",
+    "lastVerified": "2026-11-20",
+    "featured": false,
+    "credits": "Independent plugin. TesmioLoader by Tesmio (MaxLegend)."
+  },
+  {
+    "title": "Foreign Workers Auto Refill (140)",
+    "imageUrl": "assets/foreign-workers-auto-refill.jpg",
+    "game": "Workers & Resources: Soviet Republic",
+    "type": "Utility",
+    "status": "Current",
+    "summary": "Automatically refills foreign workers at customs houses to a configurable target and keeps the supply available for land, sea, and air routes, including Beyond Borders customs.",
+    "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3831111495",
+    "sourceUrl": "",
+    "originalUrl": "",
+    "projectUrl": "",
+    "currentVersion": "v0.8 • Game 1.1.1.13",
+    "lastVerified": "2026-11-20",
+    "featured": false,
+    "credits": "Independent plugin. TesmioLoader by Tesmio (MaxLegend)."
   }
 ]

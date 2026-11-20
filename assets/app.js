@@ -1,4 +1,4 @@
-const state = { projects: [], filter: "All" };
+const state = { projects: [], filter: "All games" };
 
 async function loadJson(path) {
   const response = await fetch(path, { cache: "no-store" });
@@ -21,6 +21,7 @@ function applySite(site) {
   if (site.heroTitle) document.getElementById("hero-title").textContent = site.heroTitle;
   if (site.tagline) document.getElementById("hero-tagline").textContent = site.tagline;
   setLink("steam-link", site.steamProfileUrl);
+  setLink("discord-link", site.discordUrl);
 
   if (site.supportUrl) {
     const section = document.getElementById("support");
@@ -33,20 +34,20 @@ function applySite(site) {
   }
 }
 
-function projectTypes(projects) {
-  return ["All", ...new Set(projects.map(p => p.type).filter(Boolean))];
+function projectGames(projects) {
+  return ["All games", ...new Set(projects.map(p => p.game).filter(Boolean))];
 }
 
 function renderFilters() {
   const box = document.getElementById("filters");
   box.innerHTML = "";
-  for (const type of projectTypes(state.projects)) {
+  for (const game of projectGames(state.projects)) {
     const button = document.createElement("button");
-    button.className = "filter" + (state.filter === type ? " active" : "");
+    button.className = "filter" + (state.filter === game ? " active" : "");
     button.type = "button";
-    button.textContent = type;
+    button.textContent = game;
     button.addEventListener("click", () => {
-      state.filter = type;
+      state.filter = game;
       renderFilters();
       renderProjects();
     });
@@ -61,9 +62,9 @@ function link(label, url) {
 
 function renderProjects() {
   const grid = document.getElementById("project-grid");
-  const projects = state.filter === "All"
+  const projects = state.filter === "All games"
     ? state.projects
-    : state.projects.filter(p => p.type === state.filter);
+    : state.projects.filter(p => p.game === state.filter);
 
   if (!projects.length) {
     grid.innerHTML = '<p class="muted">No projects in this category yet.</p>';
