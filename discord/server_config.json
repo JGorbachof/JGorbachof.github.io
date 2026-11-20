@@ -1,0 +1,668 @@
+{
+  "server": {
+    "name": "Gorbachof Modding Hub",
+    "description": "Support, releases, bug reports, compatibility patches, mod revivals, and original projects maintained by Gorbachof.",
+    "verification_level": 2,
+    "default_message_notifications": 1,
+    "explicit_content_filter": 2,
+    "preferred_locale": "en-US"
+  },
+  "roles": [
+    {
+      "name": "Creator",
+      "hoist": true,
+      "mentionable": false,
+      "permissions": [
+        "ADMINISTRATOR"
+      ]
+    },
+    {
+      "name": "Maintainer",
+      "hoist": true,
+      "mentionable": false,
+      "permissions": [
+        "VIEW_AUDIT_LOG",
+        "MANAGE_GUILD",
+        "MANAGE_CHANNELS",
+        "MANAGE_ROLES",
+        "MANAGE_WEBHOOKS",
+        "MANAGE_MESSAGES",
+        "MANAGE_THREADS",
+        "MANAGE_EVENTS",
+        "MODERATE_MEMBERS",
+        "KICK_MEMBERS",
+        "BAN_MEMBERS"
+      ]
+    },
+    {
+      "name": "Moderator",
+      "hoist": true,
+      "mentionable": false,
+      "permissions": [
+        "VIEW_AUDIT_LOG",
+        "MANAGE_MESSAGES",
+        "MANAGE_THREADS",
+        "MODERATE_MEMBERS",
+        "KICK_MEMBERS",
+        "BAN_MEMBERS",
+        "MANAGE_NICKNAMES"
+      ]
+    },
+    {
+      "name": "Bug Triager",
+      "hoist": true,
+      "mentionable": true,
+      "permissions": [
+        "MANAGE_MESSAGES",
+        "MANAGE_THREADS"
+      ]
+    },
+    {
+      "name": "Developer",
+      "hoist": true,
+      "mentionable": true,
+      "permissions": [
+        "MANAGE_THREADS"
+      ]
+    },
+    {
+      "name": "Tester",
+      "hoist": false,
+      "mentionable": true,
+      "permissions": []
+    },
+    {
+      "name": "Contributor",
+      "hoist": false,
+      "mentionable": true,
+      "permissions": []
+    },
+    {
+      "name": "Release Ping",
+      "hoist": false,
+      "mentionable": true,
+      "permissions": []
+    },
+    {
+      "name": "Test Build Ping",
+      "hoist": false,
+      "mentionable": true,
+      "permissions": []
+    },
+    {
+      "name": "Project Update Ping",
+      "hoist": false,
+      "mentionable": true,
+      "permissions": []
+    }
+  ],
+  "categories": [
+    {
+      "name": "START HERE",
+      "visibility": "public",
+      "channels": [
+        {
+          "name": "rules",
+          "type": "text",
+          "topic": "Rules for the Gorbachof Modding Hub.",
+          "writable_by": []
+        },
+        {
+          "name": "server-guide",
+          "type": "text",
+          "topic": "Where to get support, report bugs, request revivals and compatches, and follow releases.",
+          "writable_by": []
+        },
+        {
+          "name": "announcements",
+          "type": "announcement",
+          "topic": "Creator-wide announcements and major project updates.",
+          "writable_by": [
+            "Creator",
+            "Maintainer"
+          ]
+        },
+        {
+          "name": "project-directory",
+          "type": "text",
+          "topic": "Current mods, patches, revivals, maintenance forks, utilities, and original projects.",
+          "writable_by": [
+            "Creator",
+            "Maintainer"
+          ]
+        },
+        {
+          "name": "faq",
+          "type": "text",
+          "topic": "Frequently asked questions about supported mods, compatibility, credits, and troubleshooting.",
+          "writable_by": [
+            "Creator",
+            "Maintainer",
+            "Developer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VICTORIA 3 — SUPPORT & REPORTS",
+      "visibility": "public",
+      "channels": [
+        {
+          "name": "stockpile-economy",
+          "type": "text",
+          "topic": "Support and reports for Stockpile Economy Continued. Ask installation questions, report bugs or compatibility problems, and discuss balance/behavior. Start a thread for a distinct issue when practical.",
+          "writable_by": [
+            "@everyone"
+          ]
+        },
+        {
+          "name": "stockpile-tech-res",
+          "type": "text",
+          "topic": "Support and reports for Stockpile Economy Continued - Tech & Res. Include Victoria 3 version, Tech & Res version, load order, and whether the issue reproduces with only required dependencies plus this compatibility edition. Do not enable the normal Stockpile Economy Continued at the same time.",
+          "writable_by": [
+            "@everyone"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WORKERS & RESOURCES — SUPPORT & REPORTS",
+      "visibility": "public",
+      "channels": [
+        {
+          "name": "smart-workforce",
+          "type": "text",
+          "topic": "Support and reports for Smart Workforce - Auto-Close Full Factories. Ask installation questions, report bugs or compatibility problems, and discuss behavior. Start a thread for a distinct issue when practical.",
+          "writable_by": [
+            "@everyone"
+          ]
+        },
+        {
+          "name": "foreign-workers-auto-refill",
+          "type": "text",
+          "topic": "Support and reports for Foreign Workers Auto Refill (140). Ask installation questions, report bugs or compatibility problems, and discuss behavior. Start a thread for a distinct issue when practical.",
+          "writable_by": [
+            "@everyone"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "REQUESTS & IDEAS",
+      "visibility": "public",
+      "channels": [
+        {
+          "name": "revival-requests",
+          "type": "forum",
+          "topic": "Request an abandoned or outdated mod revival. Include the Workshop link, why it matters, current game version, and known breakage.",
+          "writable_by": [
+            "@everyone"
+          ],
+          "tags": [
+            "Victoria 3",
+            "CK3",
+            "HOI4",
+            "EU5",
+            "Other",
+            "Popular Request",
+            "Needs Research"
+          ]
+        },
+        {
+          "name": "compatch-requests",
+          "type": "forum",
+          "topic": "Request compatibility between popular mods. Include both Workshop links and describe the known conflict or missing integration.",
+          "writable_by": [
+            "@everyone"
+          ],
+          "tags": [
+            "Victoria 3",
+            "CK3",
+            "HOI4",
+            "EU5",
+            "Other",
+            "Popular Request",
+            "Needs Research"
+          ]
+        },
+        {
+          "name": "suggestions",
+          "type": "forum",
+          "topic": "Suggestions for maintained projects, workflow improvements, or creator-hub features.",
+          "writable_by": [
+            "@everyone"
+          ],
+          "tags": [
+            "Project Feature",
+            "Quality of Life",
+            "Documentation",
+            "Hub",
+            "Other"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RELEASES & TESTING",
+      "visibility": "public",
+      "channels": [
+        {
+          "name": "releases",
+          "type": "announcement",
+          "topic": "New releases, compatibility updates, revivals, and maintenance updates.",
+          "writable_by": [
+            "Creator",
+            "Maintainer"
+          ]
+        },
+        {
+          "name": "development-updates",
+          "type": "text",
+          "topic": "Work-in-progress notes across active projects.",
+          "writable_by": [
+            "Creator",
+            "Maintainer",
+            "Developer"
+          ]
+        },
+        {
+          "name": "test-builds",
+          "type": "text",
+          "topic": "Public test builds and validation requests.",
+          "writable_by": [
+            "Creator",
+            "Maintainer",
+            "Developer"
+          ]
+        },
+        {
+          "name": "test-results",
+          "type": "forum",
+          "topic": "Results from requested testing. Put the project and build identifier in the title.",
+          "writable_by": [
+            "@everyone"
+          ],
+          "tags": [
+            "Pass",
+            "Fail",
+            "Regression",
+            "Blocked",
+            "Needs Retest"
+          ]
+        },
+        {
+          "name": "performance-testing",
+          "type": "forum",
+          "topic": "Performance reports for projects where runtime behavior matters. Include hardware, build, game year/state, and test conditions.",
+          "writable_by": [
+            "@everyone"
+          ],
+          "tags": [
+            "CPU",
+            "GPU",
+            "Simulation",
+            "Memory",
+            "Startup",
+            "Regression"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "COMMUNITY",
+      "visibility": "public",
+      "channels": [
+        {
+          "name": "general",
+          "type": "text",
+          "topic": "General discussion about the mods, patches, revivals, and games supported here.",
+          "writable_by": [
+            "@everyone"
+          ]
+        },
+        {
+          "name": "screenshots",
+          "type": "text",
+          "topic": "Screenshots from supported mods and projects.",
+          "writable_by": [
+            "@everyone"
+          ]
+        },
+        {
+          "name": "modding-discussion",
+          "type": "text",
+          "topic": "Technical modding discussion, compatibility techniques, and maintenance practices.",
+          "writable_by": [
+            "@everyone"
+          ]
+        },
+        {
+          "name": "off-topic",
+          "type": "text",
+          "topic": "Conversation outside the supported projects. Server rules still apply.",
+          "writable_by": [
+            "@everyone"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STAFF & DEVELOPMENT",
+      "visibility": "restricted",
+      "visible_to": [
+        "Creator",
+        "Maintainer",
+        "Developer",
+        "Bug Triager",
+        "Moderator"
+      ],
+      "channels": [
+        {
+          "name": "triage",
+          "type": "text",
+          "topic": "Incoming reports awaiting classification, reproduction, prioritization, or disposition.",
+          "writable_by": [
+            "Creator",
+            "Maintainer",
+            "Developer",
+            "Bug Triager",
+            "Moderator"
+          ]
+        },
+        {
+          "name": "confirmed-bugs",
+          "type": "forum",
+          "topic": "Confirmed defects accepted for work. Put the project name in the title.",
+          "writable_by": [
+            "Creator",
+            "Maintainer",
+            "Developer",
+            "Bug Triager"
+          ],
+          "tags": [
+            "Critical",
+            "High",
+            "Medium",
+            "Low",
+            "Regression",
+            "Needs Save",
+            "Needs Repro"
+          ]
+        },
+        {
+          "name": "fixes-in-progress",
+          "type": "forum",
+          "topic": "Active fixes and validation notes across maintained projects.",
+          "writable_by": [
+            "Creator",
+            "Maintainer",
+            "Developer"
+          ],
+          "tags": [
+            "Investigating",
+            "Fixing",
+            "Review",
+            "Testing",
+            "Ready"
+          ]
+        },
+        {
+          "name": "project-planning",
+          "type": "text",
+          "topic": "Private planning for new revivals, compatches, maintenance targets, and original projects.",
+          "writable_by": [
+            "Creator",
+            "Maintainer",
+            "Developer"
+          ]
+        },
+        {
+          "name": "release-planning",
+          "type": "text",
+          "topic": "Release scope, blockers, sequencing, credits, and Workshop publishing notes.",
+          "writable_by": [
+            "Creator",
+            "Maintainer",
+            "Developer"
+          ]
+        },
+        {
+          "name": "mod-log",
+          "type": "text",
+          "topic": "AutoMod alerts, moderation events, and operational notices.",
+          "writable_by": [
+            "Creator",
+            "Maintainer",
+            "Moderator"
+          ]
+        }
+      ]
+    }
+  ],
+  "automod": [
+    {
+      "name": "Hub Mention Spam",
+      "trigger_type": 5,
+      "trigger_metadata": {
+        "mention_total_limit": 6,
+        "mention_raid_protection_enabled": true
+      },
+      "actions": [
+        {
+          "type": 1,
+          "metadata": {
+            "custom_message": "Too many mentions in one message."
+          }
+        },
+        {
+          "type": 2,
+          "alert_channel": "mod-log"
+        },
+        {
+          "type": 3,
+          "metadata": {
+            "duration_seconds": 300
+          }
+        }
+      ],
+      "enabled": true,
+      "exempt_roles": [
+        "Creator",
+        "Maintainer",
+        "Moderator"
+      ]
+    },
+    {
+      "name": "Hub Generic Spam",
+      "trigger_type": 3,
+      "trigger_metadata": {},
+      "actions": [
+        {
+          "type": 1,
+          "metadata": {
+            "custom_message": "This message was blocked as spam."
+          }
+        },
+        {
+          "type": 2,
+          "alert_channel": "mod-log"
+        }
+      ],
+      "enabled": true,
+      "exempt_roles": [
+        "Creator",
+        "Maintainer",
+        "Moderator"
+      ]
+    },
+    {
+      "name": "Hub Safety Presets",
+      "trigger_type": 4,
+      "trigger_metadata": {
+        "presets": [
+          2,
+          3
+        ]
+      },
+      "actions": [
+        {
+          "type": 1,
+          "metadata": {
+            "custom_message": "This content is not allowed in this server."
+          }
+        },
+        {
+          "type": 2,
+          "alert_channel": "mod-log"
+        }
+      ],
+      "enabled": true,
+      "exempt_roles": [
+        "Creator",
+        "Maintainer",
+        "Moderator"
+      ]
+    }
+  ],
+  "welcome_screen": {
+    "description": "Mods, patches, revivals, support, compatibility work, and original projects by Gorbachof.",
+    "channels": [
+      {
+        "name": "server-guide",
+        "description": "See how the hub is organized.",
+        "emoji_name": "🧭"
+      },
+      {
+        "name": "project-directory",
+        "description": "Browse supported projects and their support chats.",
+        "emoji_name": "🗂️"
+      },
+      {
+        "name": "stockpile-economy",
+        "description": "Stockpile Economy Continued support.",
+        "emoji_name": "🛠️"
+      },
+      {
+        "name": "revival-requests",
+        "description": "Suggest an abandoned mod to revive.",
+        "emoji_name": "♻️"
+      },
+      {
+        "name": "general",
+        "description": "Talk about mods and projects.",
+        "emoji_name": "💬"
+      }
+    ]
+  },
+  "onboarding": {
+    "enabled": true,
+    "default_channels": [
+      "rules",
+      "server-guide",
+      "project-directory",
+      "stockpile-economy",
+      "smart-workforce",
+      "foreign-workers-auto-refill",
+      "releases",
+      "general",
+      "modding-discussion"
+    ],
+    "prompts": [
+      {
+        "title": "What do you want to follow?",
+        "single_select": false,
+        "required": false,
+        "options": [
+          {
+            "title": "Releases",
+            "description": "New mod, revival, maintenance, and compatch releases.",
+            "channels": [
+              "releases"
+            ],
+            "roles": [
+              "Release Ping"
+            ]
+          },
+          {
+            "title": "Project updates",
+            "description": "Development notes and work-in-progress updates.",
+            "channels": [
+              "development-updates"
+            ],
+            "roles": [
+              "Project Update Ping"
+            ]
+          },
+          {
+            "title": "Testing",
+            "description": "Public test builds and testing requests.",
+            "channels": [
+              "test-builds",
+              "test-results"
+            ],
+            "roles": [
+              "Test Build Ping"
+            ]
+          },
+          {
+            "title": "Requests",
+            "description": "Revival and compatibility-patch requests.",
+            "channels": [
+              "revival-requests",
+              "compatch-requests"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Which supported mods do you use?",
+        "single_select": false,
+        "required": false,
+        "options": [
+          {
+            "title": "Stockpile Economy Continued",
+            "description": "Show the Stockpile Economy support/report chat.",
+            "channels": [
+              "stockpile-economy"
+            ]
+          },
+          {
+            "title": "Stockpile Economy Continued - Tech & Res",
+            "description": "Show support for the Tech & Res compatibility edition.",
+            "channels": [
+              "stockpile-tech-res"
+            ]
+          },
+          {
+            "title": "Smart Workforce",
+            "description": "Show the Smart Workforce support/report chat.",
+            "channels": [
+              "smart-workforce"
+            ]
+          },
+          {
+            "title": "Foreign Workers Auto Refill",
+            "description": "Show the Foreign Workers Auto Refill support/report chat.",
+            "channels": [
+              "foreign-workers-auto-refill"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "seed_messages": {
+    "rules": [
+      "**Gorbachof Modding Hub — Rules**\n\n1. Treat other members with basic respect. Harassment, targeted abuse, hate speech, slurs, threats, or sustained personal attacks are not permitted.\n2. Use the text channel for the mod you are discussing. Keep support/report chats usable; for a distinct bug or troubleshooting case, start a thread when practical and include the game version, mod version, reproduction details, and relevant saves/logs/screenshots.\n3. Do not spam, flood, mass-mention, or repeatedly ping maintainers for updates.\n4. Do not post malware, credential-stealing links, scams, or deliberately unsafe downloads.\n5. Do not post sexually explicit content or graphic gore.\n6. Do not redistribute proprietary game files, leaked material, or copyrighted mod assets you do not have permission to redistribute.\n7. Criticism is allowed. Keep it about the mod, compatibility, balance, implementation, or maintenance decision rather than attacking people.\n8. Respect original authors. Revivals, maintenance forks, and compatches should preserve clear credit and links to the original work where available.\n9. Follow Discord's Terms of Service and Community Guidelines.\n10. Repeated or serious violations can result in timeout, kick, or ban.\n11. Content submitted in support, request, and testing channels—including saves, logs, screenshots, Workshop links, and other attachments—may be retrieved and reviewed by development automation for troubleshooting, triage, maintenance, fixing, compatibility work, and balancing."
+    ],
+    "server-guide": [
+      "**Welcome to the Gorbachof Modding Hub**\n\nThis server covers the full creator catalog: revived/updated mods, compatibility patches, maintenance work, utilities, and original projects.\n\n**Support & Reports is organized first by game, then by mod.**\n\n**VICTORIA 3 — SUPPORT & REPORTS**\n- **#stockpile-economy** — Stockpile Economy Continued\n- **#stockpile-tech-res** — Stockpile Economy Continued - Tech & Res\n\n**WORKERS & RESOURCES — SUPPORT & REPORTS**\n- **#smart-workforce** — Smart Workforce - Auto-Close Full Factories\n- **#foreign-workers-auto-refill** — Foreign Workers Auto Refill (140)\n\nAsk installation questions, report bugs, describe compatibility problems, or give balance/behavior feedback in that mod's channel. For a distinct problem, start a thread when practical so troubleshooting stays together.\n\nFor the Tech & Res Stockpile edition, include your Victoria 3 version, Tech & Res version, and full load order. Do not enable the normal Stockpile Economy Continued at the same time.\n\n**Want an abandoned mod revived?** Use **#revival-requests** and include the Workshop link.\n**Want a compatch?** Use **#compatch-requests** with links to both parent mods.\n**Want releases?** Follow **#releases**.\n\nSupport/report/request posts and attachments may be retrieved by project automation for maintenance and troubleshooting."
+    ],
+    "project-directory": [
+      "**Project Directory**\n\nCurrent supported projects are grouped by game in Discord:\n\n**Victoria 3**\n- **Stockpile Economy Continued** — Revived mod — **#stockpile-economy**\n- **Stockpile Economy Continued - Tech & Res** — Compatibility edition — **#stockpile-tech-res**\n\n**Workers & Resources: Soviet Republic**\n- **Smart Workforce - Auto-Close Full Factories** — Utility — **#smart-workforce**\n- **Foreign Workers Auto Refill (140)** — Utility — **#foreign-workers-auto-refill**\n\n**Stockpile Economy Continued - Tech & Res** is a full replacement build for users running Tech & Res 1.7. Use it instead of the normal Stockpile Economy Continued, not alongside it.\n\nAs new supported mods are added, each receives its own text channel under that game's **SUPPORT & REPORTS** category. Use the project channel for installation help, bugs, compatibility problems, and balance/behavior feedback."
+    ],
+    "faq": [
+      "**FAQ**\n\n**Where do I get help or report a bug?** Go to the **SUPPORT & REPORTS** category for your game, then use the dedicated text channel for the mod. Start a thread for a distinct issue when practical.\n\n**Victoria 3:** **#stockpile-economy** or **#stockpile-tech-res**\n\n**Workers & Resources:** **#smart-workforce** or **#foreign-workers-auto-refill**\n\n**Which Stockpile version do I use?**\n- Not using Tech & Res: **Stockpile Economy Continued**\n- Using Tech & Res 1.7: **Stockpile Economy Continued - Tech & Res**\nDo not enable both Stockpile editions at the same time.\n\n**Where do I report a compatibility problem?** Use the support channel for the mod primarily affected and identify every involved mod, load order, and game version. If you are requesting a new compatibility patch rather than reporting an existing supported-mod problem, use **#compatch-requests**.\n\n**Can I request an abandoned mod update or a compatch?** Yes. Use **#revival-requests** or **#compatch-requests** and include Workshop links.\n\n**Can I attach saves and logs?** Yes. They may be reviewed by development automation as part of troubleshooting."
+    ]
+  }
+}

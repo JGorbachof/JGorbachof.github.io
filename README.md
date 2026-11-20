@@ -11,9 +11,30 @@ Use one public hub across all games and projects instead of treating support as 
 - `index.html` — homepage and catalog
 - `assets/styles.css` — site styling
 - `assets/app.js` — loads configuration and project data
-- `data/site.json` — creator identity and global links
+- `data/site.json` — creator identity and global links, including the public Discord invite
 - `data/mods.json` — mod/project catalog
+- `discord/` — canonical **Gorbachof Modding Hub** server configuration, sync tooling, and read-only support-review workflow
+- `docs/DISCORD_SUPPORT_REVIEW_WORKFLOW.md` — worker contract for Discord bug/support review
+- `AGENTS.md` — creator-hub worker routing
 - `.nojekyll` — keeps GitHub Pages deployment simple
+
+## Discord support model
+
+The **Gorbachof Modding Hub** Discord organizes support **first by game, then by mod**. Each supported game gets its own `<GAME> — SUPPORT & REPORTS` category, and each supported mod gets one public text channel inside that category. There are no voice support channels.
+
+Current layout:
+
+**Victoria 3**
+- Stockpile Economy Continued → `#stockpile-economy`
+- Stockpile Economy Continued - Tech & Res → `#stockpile-tech-res`
+
+**Workers & Resources: Soviet Republic**
+- Smart Workforce - Auto-Close Full Factories → `#smart-workforce`
+- Foreign Workers Auto Refill (140) → `#foreign-workers-auto-refill`
+
+The catalog stores this mapping through `discordSupportCategory`, `discordSupportChannel`, and `discordSupportUrl` in `data/mods.json`.
+
+Project channels handle installation questions, troubleshooting, bug reports, compatibility problems, and balance/behavior feedback. Distinct issues should use a thread when practical.
 
 ## Add a mod
 
@@ -32,7 +53,10 @@ Add an object to `data/mods.json`:
   "projectUrl": "",
   "currentVersion": "1.x",
   "lastVerified": "2026-11-20",
-  "featured": false
+  "featured": false,
+  "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+  "discordSupportChannel": "example-patch",
+  "discordSupportUrl": "https://discord.com/channels/..."
 }
 ```
 

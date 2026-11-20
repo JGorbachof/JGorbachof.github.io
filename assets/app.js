@@ -84,6 +84,7 @@ function cardMarkup(p) {
         </div>
         <div class="card-links">
           ${link("Steam Workshop", p.steamUrl)}
+          ${link("Discord support", p.discordSupportUrl)}
           ${link("Source", p.sourceUrl)}
           ${link("Original mod", p.originalUrl)}
           ${link("Project page", p.projectUrl)}

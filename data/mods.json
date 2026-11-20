@@ -13,7 +13,29 @@
     "currentVersion": "Victoria 3 1.15.2",
     "lastVerified": "2026-11-20",
     "featured": true,
-    "credits": "Original mod by Anbeeld (Ivan Neustroev)"
+    "credits": "Original mod by Anbeeld (Ivan Neustroev)",
+    "discordSupportChannel": "stockpile-economy",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573419751877644304",
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+  },
+  {
+    "title": "Stockpile Economy Continued - Tech & Res",
+    "imageUrl": "assets/stockpile-economy-tech-res.png",
+    "game": "Victoria 3",
+    "type": "Compatibility edition",
+    "status": "Current",
+    "summary": "A full replacement Tech & Res compatibility edition of Stockpile Economy Continued for Victoria 3 1.15.x and Tech & Res 1.7, rebuilding stockpile support for 77 physical goods including 28 Tech & Res goods. Use this instead of the normal Stockpile Economy Continued when Tech & Res is enabled.",
+    "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3843088633",
+    "sourceUrl": "",
+    "originalUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3249228964",
+    "projectUrl": "",
+    "currentVersion": "Victoria 3 1.15.2 • Tech & Res 1.7",
+    "lastVerified": "2026-11-20",
+    "featured": false,
+    "credits": "Based on Anbeeld's Stockpile Economy (ASE). Tech & Res by Mattia10 and contributors.",
+    "discordSupportChannel": "stockpile-tech-res",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573426211831545967",
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
     "title": "Smart Workforce - Auto-Close Full Factories",
@@ -29,7 +51,10 @@
     "currentVersion": "v1.2 • Game 1.1.1.13",
     "lastVerified": "2026-11-20",
     "featured": false,
-    "credits": "Independent plugin. TesmioLoader by Tesmio (MaxLegend)."
+    "credits": "Independent plugin. TesmioLoader by Tesmio (MaxLegend).",
+    "discordSupportChannel": "smart-workforce",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573419753614348350",
+    "discordSupportCategory": "WORKERS & RESOURCES — SUPPORT & REPORTS"
   },
   {
     "title": "Foreign Workers Auto Refill (140)",
@@ -45,6 +70,9 @@
     "currentVersion": "v0.8 • Game 1.1.1.13",
     "lastVerified": "2026-11-20",
     "featured": false,
-    "credits": "Independent plugin. TesmioLoader by Tesmio (MaxLegend)."
+    "credits": "Independent plugin. TesmioLoader by Tesmio (MaxLegend).",
+    "discordSupportChannel": "foreign-workers-auto-refill",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573419755744927764",
+    "discordSupportCategory": "WORKERS & RESOURCES — SUPPORT & REPORTS"
   }
 ]

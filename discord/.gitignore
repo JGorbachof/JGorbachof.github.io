@@ -1,0 +1,5 @@
+.env
+state.json
+review_exports/
+*.png
+*.jpg

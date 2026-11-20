@@ -1,0 +1,5 @@
+discord/.env
+discord/state.json
+discord/review_exports/
+discord/*.png
+discord/*.jpg

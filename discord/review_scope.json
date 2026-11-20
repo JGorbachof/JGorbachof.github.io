@@ -1,0 +1,29 @@
+{
+  "trigger_phrase": "review the Discord bug reports",
+  "guild_name": "Gorbachof Modding Hub",
+  "default_support_channels": [
+    {"name": "stockpile-economy", "project": "Stockpile Economy Continued", "game": "Victoria 3", "category": "VICTORIA 3 — SUPPORT & REPORTS"},
+    {"name": "stockpile-tech-res", "project": "Stockpile Economy Continued - Tech & Res", "game": "Victoria 3", "category": "VICTORIA 3 — SUPPORT & REPORTS"},
+    {"name": "smart-workforce", "project": "Smart Workforce - Auto-Close Full Factories", "game": "Workers & Resources: Soviet Republic", "category": "WORKERS & RESOURCES — SUPPORT & REPORTS"},
+    {"name": "foreign-workers-auto-refill", "project": "Foreign Workers Auto Refill (140)", "game": "Workers & Resources: Soviet Republic", "category": "WORKERS & RESOURCES — SUPPORT & REPORTS"}
+  ],
+  "additional_channels_only_when_explicitly_requested": [
+    "revival-requests",
+    "compatch-requests",
+    "suggestions",
+    "test-results",
+    "performance-testing",
+    "confirmed-bugs"
+  ],
+  "never_include_by_default": [
+    "general",
+    "off-topic",
+    "project-planning",
+    "release-planning",
+    "triage",
+    "mod-log"
+  ],
+  "download_attachments": true,
+  "max_attachment_bytes": 104857600,
+  "read_only": true
+}
