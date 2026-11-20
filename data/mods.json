@@ -1,16 +1,17 @@
 [
   {
-    "title": "Terra Universalis",
+    "title": "Stockpile Economy Continued",
     "game": "Victoria 3",
-    "type": "Original project",
-    "status": "In development",
-    "summary": "A long-horizon Victoria 3 conversion project and one of the creator hub's primary original projects.",
-    "steamUrl": "",
+    "type": "Revived mod",
+    "status": "Current",
+    "summary": "A maintained continuation of Anbeeld's Stockpile Economy, updated for current Victoria 3 with stockpile controls, AI behavior, state priorities, configurable rules, persistence fixes, and 1.15 compatibility work.",
+    "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3843061821",
     "sourceUrl": "",
-    "originalUrl": "",
+    "originalUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3249228964",
     "projectUrl": "",
-    "currentVersion": "",
-    "lastVerified": "",
-    "featured": true
+    "currentVersion": "Victoria 3 1.15.2",
+    "lastVerified": "2026-11-20",
+    "featured": true,
+    "credits": "Original mod by Anbeeld (Ivan Neustroev)"
   }
 ]
