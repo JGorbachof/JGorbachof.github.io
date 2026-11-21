@@ -12,6 +12,8 @@ Support is organized **by game first, then by mod**.
 - `#stockpile-economy` — Stockpile Economy Continued
 - `#stockpile-tech-res` — Stockpile Economy Continued - Tech & Res
 - `#private-sector-construction` — Private Sector Construction Continued
+- `#private-sector-construction-tech-res` — Private Sector Construction Continued - Tech & Res
+- `#bpm-vfm-compatch` — Better Politics Mod - Victorian Flavor Mod Compatch
 
 **WORKERS & RESOURCES — SUPPORT & REPORTS**
 - `#smart-workforce` — Smart Workforce - Auto-Close Full Factories

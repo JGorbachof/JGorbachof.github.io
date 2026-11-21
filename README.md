@@ -28,6 +28,8 @@ Current layout:
 - Stockpile Economy Continued → `#stockpile-economy`
 - Stockpile Economy Continued - Tech & Res → `#stockpile-tech-res`
 - Private Sector Construction Continued → `#private-sector-construction`
+- Private Sector Construction Continued - Tech & Res → `#private-sector-construction-tech-res`
+- Better Politics Mod - Victorian Flavor Mod Compatch → `#bpm-vfm-compatch`
 
 **Workers & Resources: Soviet Republic**
 - Smart Workforce - Auto-Close Full Factories → `#smart-workforce`
