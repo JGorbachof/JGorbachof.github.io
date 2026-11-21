@@ -31,6 +31,9 @@ Current layout:
 - Private Sector Construction Continued - Tech & Res → `#private-sector-construction-tech-res`
 - Better Politics Mod - Victorian Flavor Mod Compatch → `#bpm-vfm-compatch`
 
+**Hearts of Iron IV**
+- Reichskommissariats Plus x Road to 56 Compatch → `#rkplus-road-to-56-compatch`
+
 **Workers & Resources: Soviet Republic**
 - Smart Workforce - Auto-Close Full Factories → `#smart-workforce`
 - Foreign Workers Auto Refill (140) → `#foreign-workers-auto-refill`

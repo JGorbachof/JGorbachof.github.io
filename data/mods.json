@@ -95,6 +95,25 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
+    "title": "Reichskommissariats Plus x Road to 56 Compatch",
+    "imageUrl": "assets/rkplus-road-to-56-compatch.png",
+    "game": "Hearts of Iron IV",
+    "type": "Compatibility patch",
+    "status": "Current",
+    "summary": "A clean v3 compatibility patch for Reichskommissariats Plus and The Road to 56, rebuilt against the current parent mods for Hearts of Iron IV 1.20.x. It merges shared country/cosmetic colors, preserves RT56's current German decision categories and requirements, and avoids suppressing current RK+ decisions, events, focuses, and country history.",
+    "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3843270540",
+    "sourceUrl": "",
+    "originalUrl": "",
+    "projectUrl": "",
+    "currentVersion": "v3.0.0 • HOI4 1.20.x",
+    "lastVerified": "2026-11-20",
+    "featured": false,
+    "credits": "Unofficial compatibility patch. Parent mods: The Road to 56 (Workshop 820260968) and Reichskommissariats Plus (Workshop 2910757018). All parent-mod credit belongs to their original creators and contributors.",
+    "discordSupportChannel": "rkplus-road-to-56-compatch",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573541009277722644",
+    "discordSupportCategory": "HEARTS OF IRON IV — SUPPORT & REPORTS"
+  },
+  {
     "title": "Smart Workforce - Auto-Close Full Factories",
     "imageUrl": "assets/smart-workforce.jpg",
     "game": "Workers & Resources: Soviet Republic",
