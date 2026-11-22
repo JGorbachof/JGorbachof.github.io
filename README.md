@@ -32,6 +32,7 @@ Current layout:
 - Better Politics Mod - Victorian Flavor Mod Compatch → `#bpm-vfm-compatch`
 - PSC + Stockpile Replacement Pack → `#psc-stockpile-replacement`
 - Private Sector Construction + Stockpile Economy - Replacement Pack (Tech & Res Compatible) → `#psc-stockpile-replacement-tech-res`
+- Law Enforcement Institution Overhaul → `#law-enforcement-overhaul`
 
 **Hearts of Iron IV**
 - Reichskommissariats Plus x Road to 56 Compatch → `#rkplus-road-to-56-compatch`

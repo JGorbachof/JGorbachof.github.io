@@ -133,6 +133,25 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
+    "title": "Law Enforcement Institution Overhaul",
+    "imageUrl": "assets/law-enforcement-institution-overhaul.jpg",
+    "game": "Victoria 3",
+    "type": "Gameplay overhaul",
+    "status": "Current",
+    "summary": "Reworks Victoria 3 law enforcement into staffed, state-based policing through Government Administration buildings. Policing laws determine local police organization, technologies unlock equipment and automation, and effective suppression depends on staffed administration levels while retaining normal Government Administration taxation and Bureaucracy functions.",
+    "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3844339146",
+    "sourceUrl": "",
+    "originalUrl": "",
+    "projectUrl": "",
+    "currentVersion": "0.2.1 • Victoria 3 1.15.x",
+    "lastVerified": "2026-11-22",
+    "featured": false,
+    "credits": "",
+    "discordSupportChannel": "law-enforcement-overhaul",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574136523614584952",
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+  },
+  {
     "title": "Reichskommissariats Plus x Road to 56 Compatch",
     "imageUrl": "assets/rkplus-road-to-56-compatch.png",
     "game": "Hearts of Iron IV",
