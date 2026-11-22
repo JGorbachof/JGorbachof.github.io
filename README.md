@@ -30,6 +30,8 @@ Current layout:
 - Private Sector Construction Continued → `#private-sector-construction`
 - Private Sector Construction Continued - Tech & Res → `#private-sector-construction-tech-res`
 - Better Politics Mod - Victorian Flavor Mod Compatch → `#bpm-vfm-compatch`
+- PSC + Stockpile Replacement Pack → `#psc-stockpile-replacement`
+- Private Sector Construction + Stockpile Economy - Replacement Pack (Tech & Res Compatible) → `#psc-stockpile-replacement-tech-res`
 
 **Hearts of Iron IV**
 - Reichskommissariats Plus x Road to 56 Compatch → `#rkplus-road-to-56-compatch`

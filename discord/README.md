@@ -12,6 +12,8 @@ Support is organized **by game first, then by mod**, with no voice channels.
 - `#private-sector-construction` — Private Sector Construction Continued
 - `#private-sector-construction-tech-res` — Private Sector Construction Continued - Tech & Res
 - `#bpm-vfm-compatch` — Better Politics Mod - Victorian Flavor Mod Compatch
+- `#psc-stockpile-replacement` — PSC + Stockpile Replacement Pack
+- `#psc-stockpile-replacement-tech-res` — PSC + Stockpile Replacement Pack (Tech & Res Compatible)
 
 **HEARTS OF IRON IV — SUPPORT & REPORTS**
 - `#rkplus-road-to-56-compatch` — Reichskommissariats Plus x Road to 56 Compatch
