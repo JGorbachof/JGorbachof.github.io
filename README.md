@@ -33,6 +33,8 @@ Current layout:
 - PSC + Stockpile Replacement Pack → `#psc-stockpile-replacement`
 - Private Sector Construction + Stockpile Economy - Replacement Pack (Tech & Res Compatible) → `#psc-stockpile-replacement-tech-res`
 - Law Enforcement Institution Overhaul → `#law-enforcement-overhaul`
+- Law Enforcement Institution Overhaul - Tech & Res → `#law-enforcement-overhaul-tech-res`
+- Shattered World - Every State a Country (1.15 Updated) → `#shattered-world`
 
 **Hearts of Iron IV**
 - Reichskommissariats Plus x Road to 56 Compatch → `#rkplus-road-to-56-compatch`

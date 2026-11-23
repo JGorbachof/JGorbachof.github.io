@@ -15,6 +15,8 @@ Support is organized **by game first, then by mod**, with no voice channels.
 - `#psc-stockpile-replacement` — PSC + Stockpile Replacement Pack
 - `#psc-stockpile-replacement-tech-res` — PSC + Stockpile Replacement Pack (Tech & Res Compatible)
 - `#law-enforcement-overhaul` — Law Enforcement Institution Overhaul
+- `#law-enforcement-overhaul-tech-res` — Law Enforcement Institution Overhaul - Tech & Res
+- `#shattered-world` — Shattered World - Every State a Country (1.15 Updated)
 
 **HEARTS OF IRON IV — SUPPORT & REPORTS**
 - `#rkplus-road-to-56-compatch` — Reichskommissariats Plus x Road to 56 Compatch
