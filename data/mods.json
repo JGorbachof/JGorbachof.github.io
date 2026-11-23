@@ -190,6 +190,25 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
+    "title": "[1.15] Tech & Res - 3D Model Extension (Work in Progress)",
+    "imageUrl": "assets/tech-res-3d-model-extension.jpg",
+    "game": "Victoria 3",
+    "type": "Visual extension",
+    "status": "Work in Progress",
+    "summary": "A work-in-progress visual extension for Tech & Res that gives modern military unit types distinct era-appropriate 3D models without changing their combat statistics. Version 0.1.0 introduces Modern Mechanized Infantry using M113 APCs and animated Cold War infantry with M16 rifles, with additional land and naval visual families planned.",
+    "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3845005191",
+    "sourceUrl": "",
+    "originalUrl": "",
+    "projectUrl": "",
+    "currentVersion": "0.1.0 • Victoria 3 1.15.x",
+    "lastVerified": "2026-11-23",
+    "featured": false,
+    "credits": "Requires Tech & Res. 3D model credits: arc4de (M113 APC), Badboy17Aiden (Vietnam Soldier), austincford (Low Poly M16).",
+    "discordSupportChannel": "tech-res-3d-extension",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574573708754817234",
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+  },
+  {
     "title": "Reichskommissariats Plus x Road to 56 Compatch",
     "imageUrl": "assets/rkplus-road-to-56-compatch.png",
     "game": "Hearts of Iron IV",

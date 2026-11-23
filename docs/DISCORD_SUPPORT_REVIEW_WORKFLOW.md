@@ -19,6 +19,7 @@ Support is organized **by game first, then by mod**.
 - `#law-enforcement-overhaul` — Law Enforcement Institution Overhaul
 - `#law-enforcement-overhaul-tech-res` — Law Enforcement Institution Overhaul - Tech & Res
 - `#shattered-world` — Shattered World - Every State a Country (1.15 Updated)
+- `#tech-res-3d-extension` — [1.15] Tech & Res - 3D Model Extension (Work in Progress)
 
 **HEARTS OF IRON IV — SUPPORT & REPORTS**
 - `#rkplus-road-to-56-compatch` — Reichskommissariats Plus x Road to 56 Compatch
