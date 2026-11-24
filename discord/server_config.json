@@ -258,6 +258,15 @@
           "writable_by": [
             "@everyone"
           ]
+        },
+        {
+          "name": "enhanced-vassalization-principle",
+          "type": "text",
+          "visibility": "public",
+          "topic": "Support and reports for Enhanced Vassalization Principle. Include Victoria 3 version, Power Bloc identity, Vassalization principle tier, cohesion, member tenure and full mod load order when reporting Subjugate eligibility issues.",
+          "writable_by": [
+            "@everyone"
+          ]
         }
       ]
     },

@@ -22,6 +22,8 @@ Support is organized **by game first, then by mod**, with no voice channels.
 - `#home-affairs-overhaul` — Home Affairs Institution Overhaul
 - `#distinct-military-weapons` — Distinct Military Weapons
 
+- `#enhanced-vassalization-principle` — Enhanced Vassalization Principle
+
 **HEARTS OF IRON IV — SUPPORT & REPORTS**
 - `#rkplus-road-to-56-compatch` — Reichskommissariats Plus x Road to 56 Compatch
 

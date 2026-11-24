@@ -189,6 +189,25 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
+    "title": "[1.15.2] Enhanced Vassalization Principle",
+    "imageUrl": "assets/enhanced-vassalization-principle.png",
+    "game": "Victoria 3",
+    "type": "Gameplay enhancement",
+    "status": "Current",
+    "summary": "Expands Vassalization III so Power Bloc leaders can use the vanilla Subjugate diplomatic action against eligible weaker members, including in non-Sovereign Empire blocs. Retains the original enhanced 25 Authority per subject, subject-income transfer, and subject decrees.",
+    "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3337842080",
+    "sourceUrl": "",
+    "originalUrl": "",
+    "projectUrl": "",
+    "currentVersion": "1.1.0 — Victoria 3 1.15.x",
+    "lastVerified": "2026-11-24",
+    "featured": false,
+    "credits": "",
+    "discordSupportChannel": "enhanced-vassalization-principle",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574894551020077152",
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+  },
+  {
     "title": "[1.15.2] Shattered World - Every State a Country",
     "imageUrl": "assets/shattered-world-115.png",
     "game": "Victoria 3",
