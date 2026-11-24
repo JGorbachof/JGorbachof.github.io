@@ -4,7 +4,7 @@
     "game": "Victoria 3",
     "type": "Utility",
     "status": "Testing",
-    "summary": "A Windows launcher for Victoria 3 with Paradox playset import, mod selection and load-order controls, separate launch profiles, and optional version-checked native DLL plugins. Includes a plugin SDK for developing engine extensions.",
+    "summary": "A native DLL plugin loader for Victoria 3 on Windows, built to fill the gap left by the standard Paradox launcher, which does not conveniently support native DLL injection. Install and enable version-checked native plugins alongside existing mod playsets, including engine extensions that go beyond ordinary game scripting. Includes a plugin SDK; no performance optimization plugin is bundled.",
     "steamUrl": "",
     "sourceUrl": "https://github.com/JGorbachof/Victoria3NativeLoader",
     "originalUrl": "",
