@@ -19,7 +19,7 @@
   },
   {
     "title": "[1.15.2] Stockpile Economy Continued",
-    "imageUrl": "assets/stockpile-economy-continued.jpg",
+    "imageUrl": "assets/stockpile-economy-continued.png",
     "game": "Victoria 3",
     "type": "Revived mod",
     "status": "Current",
@@ -57,7 +57,7 @@
   },
   {
     "title": "[1.15.2] Private Sector Construction Continued",
-    "imageUrl": "assets/private-sector-construction-continued.png",
+    "imageUrl": "assets/private-sector-construction-continued.jpg",
     "game": "Victoria 3",
     "type": "Revived mod",
     "status": "Current",
@@ -76,7 +76,7 @@
   },
   {
     "title": "[1.15.2] Private Sector Construction Continued - Tech & Res",
-    "imageUrl": "assets/private-sector-construction-tech-res.png",
+    "imageUrl": "assets/private-sector-construction-tech-res.jpg",
     "game": "Victoria 3",
     "type": "Compatibility edition",
     "status": "Current",
@@ -114,7 +114,7 @@
   },
   {
     "title": "[1.15.2] PSC + Stockpile Replacement Pack",
-    "imageUrl": "assets/psc-stockpile-replacement-pack.png",
+    "imageUrl": "assets/psc-stockpile-replacement-pack.jpg",
     "game": "Victoria 3",
     "type": "Combined replacement",
     "status": "Current",
@@ -133,7 +133,7 @@
   },
   {
     "title": "[1.15.2] Private Sector Construction + Stockpile Economy - Replacement Pack (Tech & Res Compatible)",
-    "imageUrl": "assets/psc-stockpile-replacement-tech-res.png",
+    "imageUrl": "assets/psc-stockpile-replacement-tech-res.jpg",
     "game": "Victoria 3",
     "type": "Compatibility edition",
     "status": "Current",
@@ -209,7 +209,7 @@
   },
   {
     "title": "[1.15.2] Shattered World - Every State a Country",
-    "imageUrl": "assets/shattered-world-115.png",
+    "imageUrl": "assets/shattered-world-115.jpg",
     "game": "Victoria 3",
     "type": "Revived mod",
     "status": "Current",
@@ -304,7 +304,7 @@
   },
   {
     "title": "Smart Workforce - Auto-Close Full Factories",
-    "imageUrl": "assets/smart-workforce.jpg",
+    "imageUrl": "assets/smart-workforce.png",
     "game": "Workers & Resources: Soviet Republic",
     "type": "Utility",
     "status": "Current",
@@ -323,7 +323,7 @@
   },
   {
     "title": "Foreign Workers Auto Refill (140)",
-    "imageUrl": "assets/foreign-workers-auto-refill.jpg",
+    "imageUrl": "assets/foreign-workers-auto-refill.png",
     "game": "Workers & Resources: Soviet Republic",
     "type": "Utility",
     "status": "Current",
