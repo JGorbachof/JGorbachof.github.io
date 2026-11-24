@@ -18,7 +18,7 @@
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574860502683877417"
   },
   {
-    "title": "Stockpile Economy Continued",
+    "title": "[1.15.2] Stockpile Economy Continued",
     "imageUrl": "assets/stockpile-economy-continued.jpg",
     "game": "Victoria 3",
     "type": "Revived mod",
@@ -37,7 +37,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "Stockpile Economy Continued - Tech & Res",
+    "title": "[1.15.2] Stockpile Economy Continued - Tech & Res",
     "imageUrl": "assets/stockpile-economy-tech-res.png",
     "game": "Victoria 3",
     "type": "Compatibility edition",
@@ -56,7 +56,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "Private Sector Construction Continued",
+    "title": "[1.15.2] Private Sector Construction Continued",
     "imageUrl": "assets/private-sector-construction-continued.png",
     "game": "Victoria 3",
     "type": "Revived mod",
@@ -75,7 +75,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "Private Sector Construction Continued - Tech & Res",
+    "title": "[1.15.2] Private Sector Construction Continued - Tech & Res",
     "imageUrl": "assets/private-sector-construction-tech-res.png",
     "game": "Victoria 3",
     "type": "Compatibility edition",
@@ -94,7 +94,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "Better Politics Mod - Victorian Flavor Mod Compatch",
+    "title": "[1.15.2] Better Politics Mod - Victorian Flavor Mod Compatch",
     "imageUrl": "assets/bpm-vfm-compatch.png",
     "game": "Victoria 3",
     "type": "Compatibility patch",
@@ -113,7 +113,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "PSC + Stockpile Replacement Pack",
+    "title": "[1.15.2] PSC + Stockpile Replacement Pack",
     "imageUrl": "assets/psc-stockpile-replacement-pack.png",
     "game": "Victoria 3",
     "type": "Combined replacement",
@@ -132,7 +132,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "Private Sector Construction + Stockpile Economy - Replacement Pack (Tech & Res Compatible)",
+    "title": "[1.15.2] Private Sector Construction + Stockpile Economy - Replacement Pack (Tech & Res Compatible)",
     "imageUrl": "assets/psc-stockpile-replacement-tech-res.png",
     "game": "Victoria 3",
     "type": "Compatibility edition",
@@ -151,7 +151,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "Law Enforcement Institution Overhaul",
+    "title": "[1.15.2] Law Enforcement Institution Overhaul",
     "imageUrl": "assets/law-enforcement-institution-overhaul.jpg",
     "game": "Victoria 3",
     "type": "Gameplay overhaul",
@@ -170,7 +170,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "Law Enforcement Institution Overhaul - Tech & Res",
+    "title": "[1.15.2] Law Enforcement Institution Overhaul - Tech & Res",
     "imageUrl": "assets/law-enforcement-overhaul-tech-res.jpg",
     "game": "Victoria 3",
     "type": "Compatibility edition",
@@ -189,7 +189,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "Shattered World - Every State a Country (1.15 Updated)",
+    "title": "[1.15.2] Shattered World - Every State a Country",
     "imageUrl": "assets/shattered-world-115.png",
     "game": "Victoria 3",
     "type": "Revived mod",
@@ -208,7 +208,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "[1.15] Tech & Res - 3D Model Extension (Work in Progress)",
+    "title": "[1.15.2] Tech & Res - 3D Model Extension (Work in Progress)",
     "imageUrl": "assets/tech-res-3d-model-extension.jpg",
     "game": "Victoria 3",
     "type": "Visual extension",
@@ -227,7 +227,7 @@
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {
-    "title": "Home Affairs Institution Overhaul",
+    "title": "[1.15.2] Home Affairs Institution Overhaul",
     "imageUrl": "assets/home-affairs-institution-overhaul.jpg",
     "game": "Victoria 3",
     "type": "Gameplay overhaul",
@@ -243,6 +243,25 @@
     "credits": "",
     "discordSupportChannel": "home-affairs-overhaul",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574860504202088520",
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+  },
+  {
+    "title": "[1.15.2] Distinct Military Weapons",
+    "imageUrl": "assets/distinct-military-weapons.jpg",
+    "game": "Victoria 3",
+    "type": "Gameplay overhaul",
+    "status": "Current",
+    "summary": "Separates firearms and artillery into distinct generations of market goods. Arms industries produce the equipment required by each generation of military units, while older weapons remain available to produce and trade. Includes Repeater Infantry, generation-specific naval armaments and fortifications, technology requirements and prestige weapons.",
+    "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3845051713",
+    "sourceUrl": "",
+    "originalUrl": "",
+    "projectUrl": "",
+    "currentVersion": "0.4.0 • Victoria 3 1.15.x",
+    "lastVerified": "2026-11-24",
+    "featured": false,
+    "credits": "",
+    "discordSupportChannel": "distinct-military-weapons",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574872230389878925",
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
   },
   {

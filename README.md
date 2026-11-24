@@ -34,10 +34,11 @@ Current layout:
 - Private Sector Construction + Stockpile Economy - Replacement Pack (Tech & Res Compatible) → `#psc-stockpile-replacement-tech-res`
 - Law Enforcement Institution Overhaul → `#law-enforcement-overhaul`
 - Law Enforcement Institution Overhaul - Tech & Res → `#law-enforcement-overhaul-tech-res`
-- Shattered World - Every State a Country (1.15 Updated) → `#shattered-world`
-- [1.15] Tech & Res - 3D Model Extension (Work in Progress) → `#tech-res-3d-extension`
+- Shattered World - Every State a Country → `#shattered-world`
+- Tech & Res - 3D Model Extension (Work in Progress) → `#tech-res-3d-extension`
 - Victoria 3 Native Loader → `#victoria3-native-loader`
 - Home Affairs Institution Overhaul → `#home-affairs-overhaul`
+- Distinct Military Weapons → `#distinct-military-weapons`
 
 **Hearts of Iron IV**
 - Reichskommissariats Plus x Road to 56 Compatch → `#rkplus-road-to-56-compatch`

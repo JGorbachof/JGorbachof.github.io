@@ -58,13 +58,13 @@
     },
     {
       "name": "shattered-world",
-      "project": "Shattered World - Every State a Country (1.15 Updated)",
+      "project": "Shattered World - Every State a Country",
       "game": "Victoria 3",
       "category": "VICTORIA 3 — SUPPORT & REPORTS"
     },
     {
       "name": "tech-res-3d-extension",
-      "project": "[1.15] Tech & Res - 3D Model Extension (Work in Progress)",
+      "project": "Tech & Res - 3D Model Extension (Work in Progress)",
       "game": "Victoria 3",
       "category": "VICTORIA 3 — SUPPORT & REPORTS"
     },
@@ -77,6 +77,12 @@
     {
       "name": "home-affairs-overhaul",
       "project": "Home Affairs Institution Overhaul",
+      "game": "Victoria 3",
+      "category": "VICTORIA 3 — SUPPORT & REPORTS"
+    },
+    {
+      "name": "distinct-military-weapons",
+      "project": "Distinct Military Weapons",
       "game": "Victoria 3",
       "category": "VICTORIA 3 — SUPPORT & REPORTS"
     },
