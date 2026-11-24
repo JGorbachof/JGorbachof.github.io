@@ -1,5 +1,21 @@
 [
   {
+    "title": "Victoria 3 Native Loader",
+    "game": "Victoria 3",
+    "type": "Utility",
+    "status": "Testing",
+    "summary": "A Windows launcher for Victoria 3 with Paradox playset import, mod selection and load-order controls, separate launch profiles, and optional version-checked native DLL plugins. Includes a plugin SDK for developing engine extensions.",
+    "steamUrl": "",
+    "sourceUrl": "https://github.com/JGorbachof/Victoria3NativeLoader",
+    "originalUrl": "",
+    "projectUrl": "https://github.com/JGorbachof/Victoria3NativeLoader/releases/tag/v0.1.0-preview",
+    "currentVersion": "v0.1.0 Developer Preview • Windows x64",
+    "lastVerified": "2026-11-24",
+    "featured": true,
+    "credits": "",
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+  },
+  {
     "title": "Stockpile Economy Continued",
     "imageUrl": "assets/stockpile-economy-continued.jpg",
     "game": "Victoria 3",
@@ -12,7 +28,7 @@
     "projectUrl": "",
     "currentVersion": "Victoria 3 1.15.2",
     "lastVerified": "2026-11-20",
-    "featured": true,
+    "featured": false,
     "credits": "Original mod by Anbeeld (Ivan Neustroev)",
     "discordSupportChannel": "stockpile-economy",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573419751877644304",
