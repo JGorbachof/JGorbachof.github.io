@@ -535,5 +535,35 @@
     "discordSupportCategory": "MINECRAFT — SUPPORT & REPORTS",
     "discordSupportChannel": "placebo",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575291384158752909"
+  },
+  {
+    "id": "minecraft-mininggadgets",
+    "title": "Mining Gadgets - Unofficial Port",
+    "game": "Minecraft",
+    "type": "Compatibility port",
+    "projectGroup": "maintenance",
+    "status": "Alpha",
+    "summary": "Energy-powered mining laser with adjustable mining area, range, and upgrades installed through a modification table.",
+    "sourceUrl": "https://github.com/JGorbachof/mininggadgets-26-3",
+    "originalUrl": "https://github.com/Direwolf20-MC/MiningGadgets",
+    "currentVersion": "1.19.3-port.1",
+    "lastVerified": "2026-11-25",
+    "featured": false,
+    "originalCreator": "Direwolf20",
+    "license": "MIT",
+    "unofficialPort": true,
+    "minecraftVersions": [
+      "26.3"
+    ],
+    "modLoaders": [
+      "NeoForge"
+    ],
+    "developmentStatus": "Server-tested alpha; full modpack testing deferred",
+    "releaseStatus": "Published",
+    "publicApproved": true,
+    "githubReleaseUrl": "https://github.com/JGorbachof/mininggadgets-26-3/releases/tag/v1.19.3-port.1",
+    "discordSupportCategory": "MINECRAFT — SUPPORT & REPORTS",
+    "discordSupportChannel": "mininggadgets",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575295638558736394"
   }
 ]
