@@ -120,12 +120,12 @@ Recommended initial deployment:
 - Use the hub for catalog, documentation, source, compatibility notes, and project history.
 - Treat optional support as support for the creator's broader maintenance work, not payment for access to a specific mod.
 
-## Minecraft ports awaiting release
+## Minecraft 26.3 / NeoForge
 
-Minecraft 26.3 / NeoForge. These unofficial ports have been submitted to CurseForge; they are not available for download yet.
+Unofficial alpha ports. Client rendering remains untested.
 
-- **Ranged Pumps** - A powered pump drains fluids across a configurable area. Original: [raoulvdberge / Refined Mods](https://www.curseforge.com/minecraft/mc-mods/ranged-pumps).
-- **AllTheCompressed** - Compress matching blocks into nine storage tiers and unpack them when needed. Original: [Pdiddy973](https://www.curseforge.com/minecraft/mc-mods/allthecompressed).
-- **Ocean's Delight** - Seafood dishes and recipes for Farmer's Delight cooking pots and cutting boards. Requires Farmer's Delight Neoforged. Original: [Scouter456 (scouter567 on CurseForge)](https://www.curseforge.com/minecraft/mc-mods/oceans-delight).
+- [Ranged Pumps](https://github.com/JGorbachof/ranged-pumps-26-3/releases/tag/v2.0.0-port.1) - A powered pump drains liquids across a configurable area. Original: [raoulvdberge / Refined Mods](https://www.curseforge.com/minecraft/mc-mods/ranged-pumps). [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ranged-pumps-unofficial-port).
+- [AllTheCompressed](https://github.com/JGorbachof/allthecompressed-26-3/releases/tag/v5.0.1-port.3) - Compress blocks into nine storage tiers and unpack them when needed. Original: [Pdiddy973](https://www.curseforge.com/minecraft/mc-mods/allthecompressed). [CurseForge](https://www.curseforge.com/minecraft/mc-mods/allthecompressed-unofficial-port).
+- [Ocean's Delight](https://github.com/JGorbachof/oceans-delight-26-3/releases/tag/v1.0.4-port.3) - Prepare seafood dishes using Farmer’s Delight cooking and cutting recipes. Original: [Scouter456 (scouter567 on CurseForge)](https://www.curseforge.com/minecraft/mc-mods/oceans-delight). [CurseForge](https://www.curseforge.com/minecraft/mc-mods/oceans-delight-unofficial-port).
 
-Status and future download links: [ModHub](https://jgorbachof.github.io/#mods).
+[ModHub](https://jgorbachof.github.io/) | [Discord](https://discord.gg/3zPAp2vk6Q)

@@ -378,5 +378,101 @@
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573419755744927764",
     "discordSupportCategory": "WORKERS & RESOURCES — SUPPORT & REPORTS",
     "projectGroup": "original"
+  },
+  {
+    "id": "minecraft-rangedpumps",
+    "title": "Ranged Pumps - Unofficial Port",
+    "game": "Minecraft",
+    "type": "Compatibility port",
+    "projectGroup": "maintenance",
+    "status": "Alpha",
+    "summary": "A powered pump drains liquids across a configurable area.",
+    "sourceUrl": "https://github.com/JGorbachof/ranged-pumps-26-3",
+    "originalUrl": "https://www.curseforge.com/minecraft/mc-mods/ranged-pumps",
+    "currentVersion": "2.0.0-port.1",
+    "lastVerified": "2026-11-25",
+    "featured": false,
+    "originalCreator": "raoulvdberge / Refined Mods",
+    "license": "MIT",
+    "unofficialPort": true,
+    "minecraftVersions": [
+      "26.3"
+    ],
+    "modLoaders": [
+      "NeoForge"
+    ],
+    "developmentStatus": "Server-tested alpha; client rendering unverified",
+    "releaseStatus": "Published",
+    "publicApproved": true,
+    "githubReleaseUrl": "https://github.com/JGorbachof/ranged-pumps-26-3/releases/tag/v2.0.0-port.1",
+    "discordSupportCategory": "MINECRAFT — SUPPORT & REPORTS",
+    "discordSupportChannel": "ranged-pumps",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575278711920394333",
+    "imageUrl": "assets/minecraft-rangedpumps.png",
+    "curseforgeUrl": "https://www.curseforge.com/minecraft/mc-mods/ranged-pumps-unofficial-port"
+  },
+  {
+    "id": "minecraft-allthecompressed",
+    "title": "AllTheCompressed - Unofficial Port",
+    "game": "Minecraft",
+    "type": "Compatibility port",
+    "projectGroup": "maintenance",
+    "status": "Alpha",
+    "summary": "Compress blocks into nine storage tiers and unpack them when needed.",
+    "sourceUrl": "https://github.com/JGorbachof/allthecompressed-26-3",
+    "originalUrl": "https://www.curseforge.com/minecraft/mc-mods/allthecompressed",
+    "currentVersion": "5.0.1-port.3",
+    "lastVerified": "2026-11-25",
+    "featured": false,
+    "originalCreator": "Pdiddy973",
+    "license": "MIT",
+    "unofficialPort": true,
+    "minecraftVersions": [
+      "26.3"
+    ],
+    "modLoaders": [
+      "NeoForge"
+    ],
+    "developmentStatus": "Server-tested alpha; client rendering unverified",
+    "releaseStatus": "Published",
+    "publicApproved": true,
+    "githubReleaseUrl": "https://github.com/JGorbachof/allthecompressed-26-3/releases/tag/v5.0.1-port.3",
+    "discordSupportCategory": "MINECRAFT — SUPPORT & REPORTS",
+    "discordSupportChannel": "allthecompressed",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575278714424533002",
+    "imageUrl": "assets/minecraft-allthecompressed.png",
+    "curseforgeUrl": "https://www.curseforge.com/minecraft/mc-mods/allthecompressed-unofficial-port"
+  },
+  {
+    "id": "minecraft-oceansdelight",
+    "title": "Ocean's Delight - Unofficial Port",
+    "game": "Minecraft",
+    "type": "Compatibility port",
+    "projectGroup": "maintenance",
+    "status": "Alpha",
+    "summary": "Prepare seafood dishes using Farmer’s Delight cooking and cutting recipes. Requires Farmer's Delight Neoforged.",
+    "sourceUrl": "https://github.com/JGorbachof/oceans-delight-26-3",
+    "originalUrl": "https://www.curseforge.com/minecraft/mc-mods/oceans-delight",
+    "currentVersion": "1.0.4-port.3",
+    "lastVerified": "2026-11-25",
+    "featured": false,
+    "originalCreator": "Scouter456 (scouter567 on CurseForge)",
+    "license": "MIT",
+    "unofficialPort": true,
+    "minecraftVersions": [
+      "26.3"
+    ],
+    "modLoaders": [
+      "NeoForge"
+    ],
+    "developmentStatus": "Server-tested alpha; client rendering unverified",
+    "releaseStatus": "Published",
+    "publicApproved": true,
+    "githubReleaseUrl": "https://github.com/JGorbachof/oceans-delight-26-3/releases/tag/v1.0.4-port.3",
+    "discordSupportCategory": "MINECRAFT — SUPPORT & REPORTS",
+    "discordSupportChannel": "oceans-delight",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575278716429541416",
+    "imageUrl": "assets/minecraft-oceansdelight.png",
+    "curseforgeUrl": "https://www.curseforge.com/minecraft/mc-mods/oceans-delight-unofficial-port"
   }
 ]

@@ -1,5 +1,5 @@
 const state = { projects: [], submissions: [], filter: "All games" };
-const assetVersion = "20261125-mc2";
+const assetVersion = "20261125-mc-release3";
 
 async function loadJson(path) {
   const response = await fetch(`${path}?v=${assetVersion}`, { cache: "no-store" });
@@ -105,8 +105,8 @@ function cardMarkup(p) {
         </div>
         <div class="card-links">
           ${link("Steam Workshop", p.steamUrl)}
-          ${p.game === "Minecraft" && p.releaseStatus === "Published" ? link("CurseForge download", p.curseforgeUrl) : ""}
-          ${p.game === "Minecraft" && p.releaseStatus === "Published" ? link("GitHub releases", p.githubReleaseUrl) : ""}
+          ${p.game === "Minecraft" && p.releaseStatus === "Published" ? link("CurseForge", p.curseforgeUrl) : ""}
+          ${p.game === "Minecraft" && p.releaseStatus === "Published" ? link("GitHub download", p.githubReleaseUrl) : ""}
           ${link("Discord support", p.discordSupportUrl)}
           ${link("Source", p.sourceUrl)}
           ${link("Original mod", p.originalUrl)}
