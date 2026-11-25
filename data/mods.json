@@ -474,5 +474,36 @@
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575278716429541416",
     "imageUrl": "assets/minecraft-oceansdelight.png",
     "curseforgeUrl": "https://www.curseforge.com/minecraft/mc-mods/oceans-delight-unofficial-port"
+  },
+  {
+    "id": "minecraft-caelus",
+    "title": "Caelus API - Unofficial Port",
+    "game": "Minecraft",
+    "type": "Compatibility port",
+    "projectGroup": "maintenance",
+    "status": "Alpha",
+    "summary": "Library for mods that grant Elytra-style flight through an entity attribute.",
+    "sourceUrl": "https://github.com/JGorbachof/caelus-api-26-3",
+    "originalUrl": "https://github.com/TheIllusiveC4/Caelus",
+    "currentVersion": "8.0.1-port.1+26.3",
+    "lastVerified": "2026-11-25",
+    "featured": false,
+    "originalCreator": "Illusive Soulworks / C4",
+    "license": "LGPL-3.0-or-later",
+    "unofficialPort": true,
+    "minecraftVersions": [
+      "26.3"
+    ],
+    "modLoaders": [
+      "NeoForge"
+    ],
+    "developmentStatus": "Server-tested alpha; full modpack testing deferred",
+    "releaseStatus": "Published",
+    "publicApproved": true,
+    "githubReleaseUrl": "https://github.com/JGorbachof/caelus-api-26-3/releases/tag/v8.0.1-port.1%2B26.3",
+    "discordSupportCategory": "MINECRAFT — SUPPORT & REPORTS",
+    "discordSupportChannel": "caelus-api",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575283789137969324",
+    "imageUrl": "assets/minecraft-caelus.png"
   }
 ]
