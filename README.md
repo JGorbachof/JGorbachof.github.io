@@ -1,10 +1,10 @@
 # Creator Hub
 
-A dependency-free static site for a creator-wide mod catalog.
+The public catalog of my mods, updates and compatibility patches. Browse it at https://jgorbachof.github.io/.
 
 ## Purpose
 
-Use one public hub across all games and projects instead of treating support as attached to any single mod. Workshop pages can link here for project information, credits, source code, compatibility notes, and maintenance status. Optional creator support belongs on this broader hub.
+Find current releases, original authors, links and support channels in one place. For installation instructions, use the individual Workshop pages.
 
 ## Current structure
 
@@ -43,6 +43,8 @@ Current layout:
 - Victoria 3 Native Loader → `#victoria3-native-loader`
 - Home Affairs Institution Overhaul → `#home-affairs-overhaul`
 - Distinct Military Weapons → `#distinct-military-weapons`
+- Distinct Military Weapons - Tech & Res (Beta) → `#distinct-military-weapons-tech-res`
+- Enhanced Vassalization Principle → `#enhanced-vassalization-principle`
 
 **Hearts of Iron IV**
 - Reichskommissariats Plus x Road to 56 Compatch → `#rkplus-road-to-56-compatch`

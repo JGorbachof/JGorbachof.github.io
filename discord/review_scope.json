@@ -103,6 +103,18 @@
       "project": "Foreign Workers Auto Refill (140)",
       "game": "Workers & Resources: Soviet Republic",
       "category": "WORKERS & RESOURCES — SUPPORT & REPORTS"
+    },
+    {
+      "name": "enhanced-vassalization-principle",
+      "project": "Enhanced Vassalization Principle",
+      "game": "Victoria 3",
+      "category": "VICTORIA 3 — SUPPORT & REPORTS"
+    },
+    {
+      "name": "distinct-military-weapons-tech-res",
+      "project": "Distinct Military Weapons - Tech & Res (Beta)",
+      "game": "Victoria 3",
+      "category": "VICTORIA 3 — SUPPORT & REPORTS"
     }
   ],
   "additional_channels_only_when_explicitly_requested": [
