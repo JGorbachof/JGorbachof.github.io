@@ -505,5 +505,35 @@
     "discordSupportChannel": "caelus-api",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575283789137969324",
     "imageUrl": "assets/minecraft-caelus.png"
+  },
+  {
+    "id": "minecraft-placebo",
+    "title": "Placebo - Unofficial Port",
+    "game": "Minecraft",
+    "type": "Compatibility port",
+    "projectGroup": "maintenance",
+    "status": "Alpha",
+    "summary": "Shared library for Apotheosis-family mods, with dynamic registries, recipe helpers, networking and utilities.",
+    "sourceUrl": "https://github.com/JGorbachof/placebo-26-3",
+    "originalUrl": "https://github.com/Shadows-of-Fire/Placebo",
+    "currentVersion": "10.0.2-port.1",
+    "lastVerified": "2026-11-25",
+    "featured": false,
+    "originalCreator": "Shadows_of_Fire / Brennan Ward",
+    "license": "MIT; inherited LGPL-2.1 and Apache-2.0 code",
+    "unofficialPort": true,
+    "minecraftVersions": [
+      "26.3"
+    ],
+    "modLoaders": [
+      "NeoForge"
+    ],
+    "developmentStatus": "Server-tested alpha; full modpack testing deferred",
+    "releaseStatus": "Published",
+    "publicApproved": true,
+    "githubReleaseUrl": "https://github.com/JGorbachof/placebo-26-3/releases/tag/v10.0.2-port.1",
+    "discordSupportCategory": "MINECRAFT — SUPPORT & REPORTS",
+    "discordSupportChannel": "placebo",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575291384158752909"
   }
 ]
