@@ -1,5 +1,5 @@
 const state = { projects: [], filter: "All games" };
-const assetVersion = "20261125-groups";
+const assetVersion = "20261125-mc1";
 
 async function loadJson(path) {
   const response = await fetch(`${path}?v=${assetVersion}`, { cache: "no-store" });
@@ -36,7 +36,7 @@ function applySite(site) {
 }
 
 function projectGames(projects) {
-  return ["All games", ...new Set(projects.map(p => p.game).filter(Boolean))];
+  return ["All games", ...new Set([...projects.map(p => p.game).filter(Boolean), "Minecraft"])];
 }
 
 function gameLabel(game) {
@@ -61,29 +61,52 @@ function renderFilters() {
   }
 }
 
+function esc(value) {
+  return String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function safeUrl(url) {
+  try { const u = new URL(url); return u.protocol === "https:" && !u.username && !u.password ? esc(u.href) : ""; }
+  catch { return ""; }
+}
 function link(label, url) {
+  url = safeUrl(url);
   if (!url) return "";
   return `<a href="${url}" target="_blank" rel="noopener">${label}</a>`;
 }
 
+function minecraftDetails(p) {
+  if (p.game !== "Minecraft") return "";
+  return [
+    p.unofficialPort ? "Unofficial compatibility port — not endorsed by the original creator." : "",
+    p.originalCreator ? "Original creator: " + p.originalCreator : "",
+    p.license ? "License: " + p.license : "",
+    p.minecraftVersions?.length ? "Minecraft: " + p.minecraftVersions.join(", ") : "",
+    p.modLoaders?.length ? "Loaders: " + p.modLoaders.join(", ") : "",
+    p.developmentStatus ? "Development: " + p.developmentStatus : "",
+    p.releaseStatus ? "Release: " + p.releaseStatus : ""
+  ].filter(Boolean).map(t => '<p class="credits">' + esc(t) + '</p>').join("");
+}
 function cardMarkup(p) {
   return `
-    <article class="card ${p.featured ? "featured" : ""}">
-      ${p.imageUrl ? `<img class="card-image" src="${p.imageUrl}" alt="${p.title} preview" loading="lazy">` : ""}
+    <article id="${esc(p.id || "")}" class="card ${p.featured ? "featured" : ""}">
+      ${p.imageUrl ? `<img class="card-image" src="${esc(p.imageUrl)}" alt="${esc(p.title)} preview" loading="lazy">` : ""}
       <div class="card-body">
         <div class="card-top">
-          <span class="badge">${p.type || "Project"}</span>
-          <span class="badge status">${p.status || "Active"}</span>
+          <span class="badge">${esc(p.type || "Project")}</span>
+          <span class="badge status">${esc(p.status || "Active")}</span>
         </div>
-        <h5>${p.title}</h5>
-        <p>${p.summary || ""}</p>
-        ${p.credits ? `<p class="credits">${p.credits}</p>` : ""}
+        <h5>${esc(p.title)}</h5>
+        <p>${esc(p.summary || "")}</p>
+        ${p.credits ? `<p class="credits">${esc(p.credits)}</p>` : ""}
+        ${minecraftDetails(p)}
         <div class="meta">
-          ${p.currentVersion ? `<span>${p.currentVersion}</span>` : ""}
-          ${p.lastVerified ? `<span>&bull; Verified ${p.lastVerified}</span>` : ""}
+          ${p.currentVersion ? `<span>${esc(p.currentVersion)}</span>` : ""}
+          ${p.lastVerified ? `<span>&bull; Verified ${esc(p.lastVerified)}</span>` : ""}
         </div>
         <div class="card-links">
           ${link("Steam Workshop", p.steamUrl)}
+          ${p.game === "Minecraft" && p.releaseStatus === "Published" ? link("CurseForge download", p.curseforgeUrl) : ""}
+          ${p.game === "Minecraft" && p.releaseStatus === "Published" ? link("GitHub releases", p.githubReleaseUrl) : ""}
           ${link("Discord support", p.discordSupportUrl)}
           ${link("Source", p.sourceUrl)}
           ${link("Original mod", p.originalUrl)}
@@ -103,7 +126,7 @@ const projectSections = [
 
 function projectGroup(project) {
   if (["original", "maintenance"].includes(project.projectGroup)) return project.projectGroup;
-  if (project.originalUrl || ["Revived mod", "Maintenance fork", "Compatibility patch", "Compatibility edition", "Combined replacement"].includes(project.type)) return "maintenance";
+  if (project.unofficialPort || project.originalUrl || ["Revived mod", "Maintenance fork", "Compatibility patch", "Compatibility edition", "Combined replacement"].includes(project.type)) return "maintenance";
   if (project.type === "Original project") return "original";
   return "unclassified";
 }
@@ -133,7 +156,7 @@ function renderProjects() {
     ? state.projects
     : state.projects.filter(p => p.game === state.filter);
 
-  if (!projects.length) {
+  if (!projects.length && state.filter !== "Minecraft") {
     catalog.innerHTML = '<p class="muted">No projects in this category yet.</p>';
     return;
   }
@@ -145,16 +168,17 @@ function renderProjects() {
     groups.get(game).push(project);
   }
 
+  if ((state.filter === "Minecraft" || state.filter === "All games") && !groups.has("Minecraft")) groups.set("Minecraft", []);
   catalog.innerHTML = [...groups.entries()].map(([game, items]) => `
     <section class="game-group">
       <div class="game-heading">
         <div>
           <p class="eyebrow">GAME</p>
-          <h3 class="game-title">${game}</h3>
+          <h3 class="game-title">${esc(game)}</h3>
         </div>
         <span class="game-count">${items.length} ${items.length === 1 ? "project" : "projects"}</span>
       </div>
-      ${projectSectionMarkup(items)}
+      ${items.length ? projectSectionMarkup(items) : '<p class="muted">No published Minecraft projects yet.</p>'}
     </section>
   `).join("");
 }
@@ -166,7 +190,7 @@ async function boot() {
       loadJson("data/mods.json")
     ]);
     applySite(site);
-    state.projects = projects;
+    state.projects = projects.filter(p => p.game !== "Minecraft" || p.publicApproved === true);
     renderFilters();
     renderProjects();
   } catch (error) {
