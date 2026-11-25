@@ -111,6 +111,7 @@ function cardMarkup(p) {
           ${link("Source", p.sourceUrl)}
           ${link("Original mod", p.originalUrl)}
           ${link("Project page", p.projectUrl)}
+          ${link("Asset credits", p.creditsUrl)}
         </div>
       </div>
     </article>
