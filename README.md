@@ -119,3 +119,13 @@ Recommended initial deployment:
 - Link back to original Workshop items or repositories when available.
 - Use the hub for catalog, documentation, source, compatibility notes, and project history.
 - Treat optional support as support for the creator's broader maintenance work, not payment for access to a specific mod.
+
+## Minecraft ports awaiting release
+
+Minecraft 26.3 / NeoForge. These unofficial ports have been submitted to CurseForge; they are not available for download yet.
+
+- **Ranged Pumps** - A powered pump drains fluids across a configurable area. Original: [raoulvdberge / Refined Mods](https://www.curseforge.com/minecraft/mc-mods/ranged-pumps).
+- **AllTheCompressed** - Compress matching blocks into nine storage tiers and unpack them when needed. Original: [Pdiddy973](https://www.curseforge.com/minecraft/mc-mods/allthecompressed).
+- **Ocean's Delight** - Seafood dishes and recipes for Farmer's Delight cooking pots and cutting boards. Requires Farmer's Delight Neoforged. Original: [Scouter456 (scouter567 on CurseForge)](https://www.curseforge.com/minecraft/mc-mods/oceans-delight).
+
+Status and future download links: [ModHub](https://jgorbachof.github.io/#mods).

@@ -1,5 +1,5 @@
-const state = { projects: [], filter: "All games" };
-const assetVersion = "20261125-mc1";
+const state = { projects: [], submissions: [], filter: "All games" };
+const assetVersion = "20261125-mc2";
 
 async function loadJson(path) {
   const response = await fetch(`${path}?v=${assetVersion}`, { cache: "no-store" });
@@ -151,6 +151,11 @@ function projectSectionMarkup(items) {
   }).join("");
 }
 
+function pendingMinecraftMarkup() {
+  const pending = state.submissions.filter(p => !state.projects.some(q => q.id === p.id));
+  if (!pending.length) return "";
+  return '<section class="project-section"><div class="project-section-heading"><h4>Submitted for moderation</h4></div><p class="project-section-description">Unofficial Minecraft 26.3 NeoForge ports. Downloads are not available yet.</p><div class="project-grid">' + pending.map(p => cardMarkup({id:p.id,title:p.title + " - Unofficial Port",game:"Minecraft",type:"Compatibility port",status:"Awaiting release",summary:p.summary,originalCreator:p.originalCreator,originalUrl:p.originalUrl,unofficialPort:true,minecraftVersions:[p.minecraft],modLoaders:[p.loader],releaseStatus:p.status})).join("") + '</div></section>';
+}
 function renderProjects() {
   const catalog = document.getElementById("project-grid");
   const projects = state.filter === "All games"
@@ -180,17 +185,20 @@ function renderProjects() {
         <span class="game-count">${items.length} ${items.length === 1 ? "project" : "projects"}</span>
       </div>
       ${items.length ? projectSectionMarkup(items) : '<p class="muted">No published Minecraft projects yet.</p>'}
+      ${game === "Minecraft" ? pendingMinecraftMarkup() : ""}
     </section>
   `).join("");
 }
 
 async function boot() {
   try {
-    const [site, projects] = await Promise.all([
+    const [site, projects, submissions] = await Promise.all([
       loadJson("data/site.json"),
-      loadJson("data/mods.json")
+      loadJson("data/mods.json"),
+      loadJson("data/minecraft-submissions.json").catch(() => [])
     ]);
     applySite(site);
+    state.submissions = Array.isArray(submissions) ? submissions : [];
     state.projects = projects.filter(p => p.game !== "Minecraft" || p.publicApproved === true);
     renderFilters();
     renderProjects();
