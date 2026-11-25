@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --bg: #0b0d10;
   --panel: #12161b;
   --panel-2: #171c22;
@@ -47,7 +47,7 @@ nav a:hover { color: var(--text); }
   font-weight: 800;
   letter-spacing: .12em;
 }
-h1, h2, h3 { margin: 0; line-height: 1.08; }
+h1, h2, h3, h4, h5 { margin: 0; line-height: 1.08; }
 h1 { max-width: 850px; font-size: clamp(42px, 7vw, 78px); letter-spacing: -.045em; }
 h2 { font-size: clamp(30px, 4vw, 46px); letter-spacing: -.03em; }
 h3 { font-size: 21px; letter-spacing: -.015em; }
@@ -103,6 +103,28 @@ h3 { font-size: 21px; letter-spacing: -.015em; }
   font-size: 13px;
   white-space: nowrap;
 }
+.project-section + .project-section {
+  margin-top: 30px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.project-section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+.project-section-heading h4 {
+  font-size: 19px;
+  letter-spacing: -.01em;
+}
+.project-section-description {
+  margin: 7px 0 14px;
+  max-width: 850px;
+  color: var(--muted);
+  font-size: 14px;
+}
 .project-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; }
 .card {
   display: flex;
@@ -138,7 +160,7 @@ h3 { font-size: 21px; letter-spacing: -.015em; }
   font-size: 12px;
 }
 .status { color: var(--text); }
-.card h3 { font-size: 18px; line-height: 1.2; }
+.card h5 { font-size: 18px; line-height: 1.2; }
 .card p {
   color: var(--muted);
   margin: 10px 0 0;
@@ -152,11 +174,8 @@ h3 { font-size: 21px; letter-spacing: -.015em; }
   -webkit-line-clamp: 3;
 }
 .card .credits {
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
   font-size: 12px;
+  overflow-wrap: anywhere;
 }
 .meta { margin-top: auto; padding-top: 14px; color: var(--muted); font-size: 11px; }
 .card-links { margin-top: 12px; }

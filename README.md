@@ -18,6 +18,10 @@ Use one public hub across all games and projects instead of treating support as 
 - `AGENTS.md` — creator-hub worker routing
 - `.nojekyll` — keeps GitHub Pages deployment simple
 
+## Catalog organization
+
+Projects are grouped by game, then by authorship: **Original mods & tools** (original projects, including original extensions that depend on other mods) and **Compatibility patches & mod revivals** (forks, updates, combined packs and compatibility editions). Third-party contributions and original sources remain credited on individual cards. Set `projectGroup` explicitly to `original` or `maintenance` for every new catalog entry. Do not infer ownership from a dependency or asset credit alone. Unclassified entries use a neutral fallback rather than claiming authorship.
+
 ## Discord support model
 
 The **Gorbachof Modding Hub** Discord organizes support **first by game, then by mod**. Each supported game gets its own `<GAME> — SUPPORT & REPORTS` category, and each supported mod gets one public text channel inside that category. There are no voice support channels.
@@ -60,6 +64,7 @@ Add an object to `data/mods.json`:
   "title": "Example Patch",
   "game": "Victoria 3",
   "type": "Compatibility patch",
+  "projectGroup": "maintenance",
   "status": "Current",
   "summary": "Compatibility patch for two popular mods.",
   "steamUrl": "https://steamcommunity.com/...",

@@ -15,7 +15,8 @@
     "credits": "",
     "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
     "discordSupportChannel": "victoria3-native-loader",
-    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574860502683877417"
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574860502683877417",
+    "projectGroup": "original"
   },
   {
     "title": "[1.15.2] Stockpile Economy Continued",
@@ -31,10 +32,11 @@
     "currentVersion": "1.2.0-rc2 • Victoria 3 1.15.2",
     "lastVerified": "2026-11-24",
     "featured": false,
-    "credits": "Original mod by Anbeeld (Ivan Neustroev)",
+    "credits": "Original mod by Anbeeld",
     "discordSupportChannel": "stockpile-economy",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573419751877644304",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "maintenance"
   },
   {
     "title": "[1.15.2] Stockpile Economy Continued - Tech & Res",
@@ -53,7 +55,8 @@
     "credits": "Based on Anbeeld's Stockpile Economy (ASE). Tech & Res by Mattia10 and contributors.",
     "discordSupportChannel": "stockpile-tech-res",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573426211831545967",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "maintenance"
   },
   {
     "title": "[1.15.2] Private Sector Construction Continued",
@@ -72,7 +75,8 @@
     "credits": "Original Private Sector Construction by Dingbat32. Original source: github.com/dingbat32/Private-Sector-Construction.",
     "discordSupportChannel": "private-sector-construction",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573451594832289862",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "maintenance"
   },
   {
     "title": "[1.15.2] Private Sector Construction Continued - Tech & Res",
@@ -91,7 +95,8 @@
     "credits": "Original Private Sector Construction by Dingbat32. Tech & Res by Mattia10 and contributors. Re-derived against current PSC Continued and Tech & Res 1.7.",
     "discordSupportChannel": "private-sector-construction-tech-res",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573492986468110357",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "maintenance"
   },
   {
     "title": "[1.15.2] Better Politics Mod - Victorian Flavor Mod Compatch",
@@ -110,7 +115,8 @@
     "credits": "Compatibility patch for Victorian Flavor Mod (Workshop 2880089689) and Better Politics Mod (Workshop 2932134122). Parent mods are not redistributed.",
     "discordSupportChannel": "bpm-vfm-compatch",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573492987487457371",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "maintenance"
   },
   {
     "title": "[1.15.2] PSC + Stockpile Replacement Pack",
@@ -129,7 +135,8 @@
     "credits": "Combined derivative based on Private Sector Construction by Dingbat32 and Stockpile Economy by Anbeeld.",
     "discordSupportChannel": "psc-stockpile-replacement",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573863195834064966",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "maintenance"
   },
   {
     "title": "[1.15.2] Private Sector Construction + Stockpile Economy - Replacement Pack (Tech & Res Compatible)",
@@ -148,7 +155,8 @@
     "credits": "Combined derivative based on Private Sector Construction by Dingbat32 and Stockpile Economy by Anbeeld, with Tech & Res compatibility.",
     "discordSupportChannel": "psc-stockpile-replacement-tech-res",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573863196668723254",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "maintenance"
   },
   {
     "title": "[1.15.2] Law Enforcement Institution Overhaul",
@@ -167,7 +175,8 @@
     "credits": "",
     "discordSupportChannel": "law-enforcement-overhaul",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574136523614584952",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "original"
   },
   {
     "title": "[1.15.2] Law Enforcement Institution Overhaul - Tech & Res",
@@ -186,7 +195,8 @@
     "credits": "Tech & Res by Mattia10 and contributors.",
     "discordSupportChannel": "law-enforcement-overhaul-tech-res",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574479406280351815",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "maintenance"
   },
   {
     "title": "[1.15.2] Enhanced Vassalization Principle",
@@ -205,7 +215,8 @@
     "credits": "",
     "discordSupportChannel": "enhanced-vassalization-principle",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574894551020077152",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "original"
   },
   {
     "title": "[1.15.2] Shattered World - Every State a Country",
@@ -224,7 +235,8 @@
     "credits": "Original Shattered World by Caracus.",
     "discordSupportChannel": "shattered-world",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574479408138424460",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "maintenance"
   },
   {
     "title": "[1.15.2] Tech & Res - 3D Model Extension (Work in Progress)",
@@ -243,7 +255,8 @@
     "credits": "Requires Tech & Res. Full model-by-model source credits and acknowledgments are on the Workshop listing.",
     "discordSupportChannel": "tech-res-3d-extension",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574573708754817234",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "original"
   },
   {
     "title": "[1.15.2] Home Affairs Institution Overhaul",
@@ -262,7 +275,8 @@
     "credits": "",
     "discordSupportChannel": "home-affairs-overhaul",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574860504202088520",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "original"
   },
   {
     "title": "[1.15.2] Distinct Military Weapons",
@@ -281,7 +295,8 @@
     "credits": "",
     "discordSupportChannel": "distinct-military-weapons",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1574872230389878925",
-    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS"
+    "discordSupportCategory": "VICTORIA 3 — SUPPORT & REPORTS",
+    "projectGroup": "original"
   },
   {
     "title": "Reichskommissariats Plus x Road to 56 Compatch",
@@ -300,7 +315,8 @@
     "credits": "Unofficial compatibility patch. Parent mods: The Road to 56 (Workshop 820260968) and Reichskommissariats Plus (Workshop 2910757018). All parent-mod credit belongs to their original creators and contributors.",
     "discordSupportChannel": "rkplus-road-to-56-compatch",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573541009277722644",
-    "discordSupportCategory": "HEARTS OF IRON IV — SUPPORT & REPORTS"
+    "discordSupportCategory": "HEARTS OF IRON IV — SUPPORT & REPORTS",
+    "projectGroup": "maintenance"
   },
   {
     "title": "Smart Workforce - Auto-Close Full Factories",
@@ -319,7 +335,8 @@
     "credits": "Independent plugin. TesmioLoader by Tesmio (MaxLegend).",
     "discordSupportChannel": "smart-workforce",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573419753614348350",
-    "discordSupportCategory": "WORKERS & RESOURCES — SUPPORT & REPORTS"
+    "discordSupportCategory": "WORKERS & RESOURCES — SUPPORT & REPORTS",
+    "projectGroup": "original"
   },
   {
     "title": "Foreign Workers Auto Refill (140)",
@@ -338,6 +355,7 @@
     "credits": "Independent plugin. TesmioLoader by Tesmio (MaxLegend).",
     "discordSupportChannel": "foreign-workers-auto-refill",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1573419755744927764",
-    "discordSupportCategory": "WORKERS & RESOURCES — SUPPORT & REPORTS"
+    "discordSupportCategory": "WORKERS & RESOURCES — SUPPORT & REPORTS",
+    "projectGroup": "original"
   }
 ]

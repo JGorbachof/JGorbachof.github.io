@@ -1,5 +1,5 @@
 const state = { projects: [], filter: "All games" };
-const assetVersion = "20261120-3";
+const assetVersion = "20261125-groups";
 
 async function loadJson(path) {
   const response = await fetch(`${path}?v=${assetVersion}`, { cache: "no-store" });
@@ -75,7 +75,7 @@ function cardMarkup(p) {
           <span class="badge">${p.type || "Project"}</span>
           <span class="badge status">${p.status || "Active"}</span>
         </div>
-        <h3>${p.title}</h3>
+        <h5>${p.title}</h5>
         <p>${p.summary || ""}</p>
         ${p.credits ? `<p class="credits">${p.credits}</p>` : ""}
         <div class="meta">
@@ -92,6 +92,39 @@ function cardMarkup(p) {
       </div>
     </article>
   `;
+}
+
+// Explicit per-project classification takes precedence over the fallback for older entries.
+const projectSections = [
+  { key: "original", title: "Original mods & tools", description: "Projects I created, including original add-ons for other mods. Third-party assets and dependencies are credited separately." },
+  { key: "maintenance", title: "Compatibility patches & mod revivals", description: "Updates, forks, compatibility editions and combined packs based on other creators' work. Credit for the original mods remains with their authors." },
+  { key: "unclassified", title: "Other projects", description: "Projects whose authorship classification has not yet been confirmed." }
+];
+
+function projectGroup(project) {
+  if (["original", "maintenance"].includes(project.projectGroup)) return project.projectGroup;
+  if (project.originalUrl || ["Revived mod", "Maintenance fork", "Compatibility patch", "Compatibility edition", "Combined replacement"].includes(project.type)) return "maintenance";
+  if (project.type === "Original project") return "original";
+  return "unclassified";
+}
+
+function projectSectionMarkup(items) {
+  return projectSections.map(section => {
+    const members = items.filter(p => projectGroup(p) === section.key);
+    if (!members.length) return "";
+    return `
+      <section class="project-section">
+        <div class="project-section-heading">
+          <h4>${section.title}</h4>
+          <span class="game-count">${members.length} ${members.length === 1 ? "project" : "projects"}</span>
+        </div>
+        <p class="project-section-description">${section.description}</p>
+        <div class="project-grid">
+          ${members.map(cardMarkup).join("")}
+        </div>
+      </section>
+    `;
+  }).join("");
 }
 
 function renderProjects() {
@@ -121,9 +154,7 @@ function renderProjects() {
         </div>
         <span class="game-count">${items.length} ${items.length === 1 ? "project" : "projects"}</span>
       </div>
-      <div class="project-grid">
-        ${items.map(cardMarkup).join("")}
-      </div>
+      ${projectSectionMarkup(items)}
     </section>
   `).join("");
 }
