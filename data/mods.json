@@ -244,7 +244,7 @@
     "game": "Victoria 3",
     "type": "Visual extension",
     "status": "Work in Progress",
-    "summary": "Adds animated land, naval and aircraft models to Tech & Res. Land units change appearance as formations upgrade, aircraft depend on technology and mobilization options, and modern ships display their selected refits.",
+    "summary": "Adds animated land, naval and aircraft models to Tech & Res. Land units change appearance as formations upgrade, and aircraft depend on technology and mobilization options. Supported ships have visual ship designer refits. National equipment sets are being added country by country.",
     "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3845005191",
     "sourceUrl": "",
     "originalUrl": "",
