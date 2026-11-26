@@ -131,5 +131,6 @@ Unofficial alpha ports. Client rendering remains untested.
 - [Placebo](https://github.com/JGorbachof/placebo-26-3/releases/tag/v10.0.2-port.1) - Shared library for Apotheosis-family mods, with dynamic registries, recipe helpers, networking and utilities. Original: [Shadows_of_Fire / Brennan Ward](https://github.com/Shadows-of-Fire/Placebo).
 - [Mining Gadgets](https://github.com/JGorbachof/mininggadgets-26-3/releases/tag/v1.19.3-port.1) - Energy-powered mining laser with adjustable mining area, range, and upgrades installed through a modification table. Original: [Direwolf20](https://github.com/Direwolf20-MC/MiningGadgets).
 - [Building Gadgets 2](https://github.com/JGorbachof/buildinggadgets2-26-3/releases/tag/v26.1.2.3-port.1) - Five energy-powered construction gadgets for building, exchanging, copying, relocating and destroying blocks, with saved templates. Original: [Direwolf20](https://github.com/Direwolf20-MC/BuildingGadgets2).
+- [Pure Suffering](https://github.com/JGorbachof/puresuffering-26-3/releases/tag/v1.6.8.5R-port.1) - Progressively more severe mob invasions, with Standard, Hyper and Nightmare difficulties, configurable game rules and custom invasion datapacks. Original: [TheAGamePlayer](https://github.com/TheAGamePlayer/The-Pure-Suffering-Mod).
 
 [ModHub](https://jgorbachof.github.io/) | [Discord](https://discord.gg/3zPAp2vk6Q)

@@ -595,5 +595,35 @@
     "discordSupportCategory": "MINECRAFT — SUPPORT & REPORTS",
     "discordSupportChannel": "buildinggadgets2",
     "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575313775052202046"
+  },
+  {
+    "id": "minecraft-puresuffering",
+    "title": "Pure Suffering - Unofficial Port",
+    "game": "Minecraft",
+    "type": "Compatibility port",
+    "projectGroup": "maintenance",
+    "status": "Alpha",
+    "summary": "Progressively more severe mob invasions, with Standard, Hyper and Nightmare difficulties, configurable game rules and custom invasion datapacks.",
+    "sourceUrl": "https://github.com/JGorbachof/puresuffering-26-3",
+    "originalUrl": "https://github.com/TheAGamePlayer/The-Pure-Suffering-Mod",
+    "currentVersion": "1.6.8.5R-port.1",
+    "lastVerified": "2026-11-25",
+    "featured": false,
+    "originalCreator": "TheAGamePlayer",
+    "license": "GPL-3.0",
+    "unofficialPort": true,
+    "minecraftVersions": [
+      "26.3"
+    ],
+    "modLoaders": [
+      "NeoForge"
+    ],
+    "developmentStatus": "Server-tested alpha; new worlds only; client and modpack testing deferred",
+    "releaseStatus": "Published",
+    "publicApproved": true,
+    "githubReleaseUrl": "https://github.com/JGorbachof/puresuffering-26-3/releases/tag/v1.6.8.5R-port.1",
+    "discordSupportCategory": "MINECRAFT — SUPPORT & REPORTS",
+    "discordSupportChannel": "puresuffering",
+    "discordSupportUrl": "https://discord.com/channels/1572764363507503104/1575363323619184670"
   }
 ]
