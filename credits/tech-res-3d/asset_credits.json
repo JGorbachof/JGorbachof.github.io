@@ -1,7 +1,7 @@
 {
   "project": "Tech & Res - 3D Model Extension",
   "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3845005191",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "groups": [
     {
       "role": "Modern Mechanized Infantry",
@@ -378,6 +378,14 @@
           "license": "CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/",
           "changes": "Adapted, optimized, rescaled and converted for Victoria 3."
+        },
+        {
+          "model": "Type 051 destroyer",
+          "creator": "lxyun_2",
+          "source": "https://sketchfab.com/3d-models/chinese-plan-051-class-destoryer051-5143eafdd3d340c5a18548e389dba7f9",
+          "license": "CC BY 4.0 (as listed in downloaded metadata)",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed."
         }
       ]
     },
@@ -399,6 +407,14 @@
           "license": "CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/",
           "changes": "Adapted, optimized, rescaled and converted for Victoria 3."
+        },
+        {
+          "model": "Type 055 cruiser",
+          "creator": "hrd4588",
+          "source": "https://sketchfab.com/3d-models/type-055-destroyer-f0a96b2475da407eb6ea2b430ba9ea85",
+          "license": "CC BY 4.0 (as listed in downloaded metadata)",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed."
         }
       ]
     },
@@ -420,6 +436,14 @@
           "license": "CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/",
           "changes": "Adapted, optimized, rescaled and converted for Victoria 3."
+        },
+        {
+          "model": "Project 82 Stalingrad (battleship proxy)",
+          "creator": "Lanko_Mykhailo",
+          "source": "https://sketchfab.com/3d-models/project-82-stalingrad-battlecruiser-model-9e3c2d6115bf4854b8577f068a9be40c",
+          "license": "CC BY 4.0 (as listed in downloaded metadata)",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed."
         }
       ]
     },
@@ -433,6 +457,14 @@
           "license": "CC BY 3.0",
           "license_url": "https://creativecommons.org/licenses/by/3.0/",
           "changes": "Visual and dimensional reference; submarine mesh built in-project."
+        },
+        {
+          "model": "Type 093 submarine",
+          "creator": "KojfDiscord",
+          "source": "https://sketchfab.com/3d-models/type-093-attack-submarine-dcs-world-9554c9d960484a7092a6edd4b821abd8",
+          "license": "CC BY 4.0 (as listed in downloaded metadata)",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. DCS World source; owner review. Underlying rights not independently verified; owner-managed."
         }
       ]
     },
@@ -502,6 +534,14 @@
           "license": "CC BY (version not recorded)",
           "license_url": "",
           "changes": "Converted donor component."
+        },
+        {
+          "model": "Type 004 conceptual carrier",
+          "creator": "MirzaArrafiERV_45",
+          "source": "https://sketchfab.com/3d-models/type-004-aircraft-carrier-0953bebe3ae34d7582fe0e2bcff0925f",
+          "license": "CC BY 4.0 (as listed in downloaded metadata)",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed."
         }
       ]
     },
@@ -531,6 +571,14 @@
           "license": "CC BY 4.0",
           "license_url": "https://creativecommons.org/licenses/by/4.0/",
           "changes": "Adapted, optimized, rescaled and converted for Victoria 3."
+        },
+        {
+          "model": "Type 071 transport",
+          "creator": "42manako",
+          "source": "https://sketchfab.com/3d-models/yuzhao-class-landing-ship-kunlun-shan-a8cff1cad4604e32849f7ffe453866ea",
+          "license": "CC BY 4.0 (as listed in downloaded metadata)",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed; uploader disclaims authorship. Underlying rights not independently verified; owner-managed."
         }
       ]
     },

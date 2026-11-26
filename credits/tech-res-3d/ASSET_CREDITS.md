@@ -94,6 +94,7 @@ Thanks to the artists whose models and textures are used in this mod. Credits ar
 | --- | --- | --- | --- |
 | [Allen M. Sumner](https://forum.dcs.world/topic/253824-wwii-allied-atlantic-naval-assets/) | Hawkeye60 / original model artist | CC BY-NC 4.0 (series) | Specific archive license unconfirmed; converted and adapted for modular refits. |
 | [Refit equipment](https://skfb.ly/o7TNV) | WTigerTw | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Adapted, optimized, rescaled and converted for Victoria 3. |
+| [Type 051 destroyer](https://sketchfab.com/3d-models/chinese-plan-051-class-destoryer051-5143eafdd3d340c5a18548e389dba7f9) | lxyun_2 | [CC BY 4.0 (as listed in downloaded metadata)](https://creativecommons.org/licenses/by/4.0/) | Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed. |
 
 ## Modern Cruiser
 
@@ -101,6 +102,7 @@ Thanks to the artists whose models and textures are used in this mod. Credits ar
 | --- | --- | --- | --- |
 | [USS Cleveland](https://skfb.ly/oouFu) | bsterling | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Adapted, optimized, rescaled and converted for Victoria 3. |
 | [Refit equipment](https://skfb.ly/o7TNV) | WTigerTw | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Adapted, optimized, rescaled and converted for Victoria 3. |
+| [Type 055 cruiser](https://sketchfab.com/3d-models/type-055-destroyer-f0a96b2475da407eb6ea2b430ba9ea85) | hrd4588 | [CC BY 4.0 (as listed in downloaded metadata)](https://creativecommons.org/licenses/by/4.0/) | Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed. |
 
 ## Modern Battleship
 
@@ -108,12 +110,14 @@ Thanks to the artists whose models and textures are used in this mod. Credits ar
 | --- | --- | --- | --- |
 | [USS Iowa](https://skfb.ly/6RE97) | D34TH11 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Adapted, optimized, rescaled and converted for Victoria 3. |
 | [Refit equipment](https://skfb.ly/o7TNV) | WTigerTw | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Adapted, optimized, rescaled and converted for Victoria 3. |
+| [Project 82 Stalingrad (battleship proxy)](https://sketchfab.com/3d-models/project-82-stalingrad-battlecruiser-model-9e3c2d6115bf4854b8577f068a9be40c) | Lanko_Mykhailo | [CC BY 4.0 (as listed in downloaded metadata)](https://creativecommons.org/licenses/by/4.0/) | Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed. |
 
 ## Nuclear Submarine
 
 | Model / source | Creator | Source license | Adaptation / notes |
 | --- | --- | --- | --- |
 | [Skipjack reference drawing](https://commons.wikimedia.org/wiki/File:Skipjack_class_submarine_3D_drawing.svg) | Voytek S | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Visual and dimensional reference; submarine mesh built in-project. |
+| [Type 093 submarine](https://sketchfab.com/3d-models/type-093-attack-submarine-dcs-world-9554c9d960484a7092a6edd4b821abd8) | KojfDiscord | [CC BY 4.0 (as listed in downloaded metadata)](https://creativecommons.org/licenses/by/4.0/) | Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. DCS World source; owner review. Underlying rights not independently verified; owner-managed. |
 
 ## Fleet Carrier
 
@@ -127,6 +131,7 @@ Thanks to the artists whose models and textures are used in this mod. Credits ar
 | [MH-60 Seahawk](https://skfb.ly/oy9R6) | touka1212 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Adapted, optimized, rescaled and converted for Victoria 3. |
 | [Refit equipment](https://skfb.ly/o7TNV) | WTigerTw | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Adapted, optimized, rescaled and converted for Victoria 3. |
 | [RAM donor](https://www.thingiverse.com/thing:5199614) | Aniket0s | CC BY (version not recorded) | Converted donor component. |
+| [Type 004 conceptual carrier](https://sketchfab.com/3d-models/type-004-aircraft-carrier-0953bebe3ae34d7582fe0e2bcff0925f) | MirzaArrafiERV_45 | [CC BY 4.0 (as listed in downloaded metadata)](https://creativecommons.org/licenses/by/4.0/) | Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed. |
 
 ## Amphibious Assault Ship
 
@@ -135,6 +140,7 @@ Thanks to the artists whose models and textures are used in this mod. Credits ar
 | [Harpers Ferry-class](https://www.thingiverse.com/thing:5199614) | Aniket0s | CC BY (version not recorded) | Converted and adapted for modular refits. |
 | [Refit equipment](https://skfb.ly/o7TNV) | WTigerTw | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Adapted, optimized, rescaled and converted for Victoria 3. |
 | [MH-60 Seahawk](https://skfb.ly/oy9R6) | touka1212 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Adapted, optimized, rescaled and converted for Victoria 3. |
+| [Type 071 transport](https://sketchfab.com/3d-models/yuzhao-class-landing-ship-kunlun-shan-a8cff1cad4604e32849f7ffe453866ea) | 42manako | [CC BY 4.0 (as listed in downloaded metadata)](https://creativecommons.org/licenses/by/4.0/) | Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed; uploader disclaims authorship. Underlying rights not independently verified; owner-managed. |
 
 ## Aerial Reconnaissance
 
