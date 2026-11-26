@@ -130,5 +130,6 @@ Unofficial alpha ports. Client rendering remains untested.
 - [Caelus API](https://github.com/JGorbachof/caelus-api-26-3/releases/tag/v8.0.1-port.1%2B26.3) - Library for mods that grant Elytra-style flight through an entity attribute. Original: [Illusive Soulworks / C4](https://github.com/TheIllusiveC4/Caelus).
 - [Placebo](https://github.com/JGorbachof/placebo-26-3/releases/tag/v10.0.2-port.1) - Shared library for Apotheosis-family mods, with dynamic registries, recipe helpers, networking and utilities. Original: [Shadows_of_Fire / Brennan Ward](https://github.com/Shadows-of-Fire/Placebo).
 - [Mining Gadgets](https://github.com/JGorbachof/mininggadgets-26-3/releases/tag/v1.19.3-port.1) - Energy-powered mining laser with adjustable mining area, range, and upgrades installed through a modification table. Original: [Direwolf20](https://github.com/Direwolf20-MC/MiningGadgets).
+- [Building Gadgets 2](https://github.com/JGorbachof/buildinggadgets2-26-3/releases/tag/v26.1.2.3-port.1) - Five energy-powered construction gadgets for building, exchanging, copying, relocating and destroying blocks, with saved templates. Original: [Direwolf20](https://github.com/Direwolf20-MC/BuildingGadgets2).
 
 [ModHub](https://jgorbachof.github.io/) | [Discord](https://discord.gg/3zPAp2vk6Q)
