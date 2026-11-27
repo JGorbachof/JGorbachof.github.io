@@ -1,7 +1,7 @@
 {
   "project": "Tech & Res - 3D Model Extension",
   "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=3845005191",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "groups": [
     {
       "role": "Modern Mechanized Infantry",
@@ -386,6 +386,14 @@
           "license": "CC BY 4.0 (as listed in downloaded metadata)",
           "license_url": "https://creativecommons.org/licenses/by/4.0/",
           "changes": "Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed."
+        },
+        {
+          "model": "Harukaze-class Yukikaze",
+          "creator": "lxyun_2",
+          "source": "https://sketchfab.com/3d-models/japan-destroyer-yukikazejmsdf-30f5637dd03b4341adc378903bbf6d44",
+          "license": "CC BY 4.0 (as listed in downloaded metadata)",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Rescaled, optimized, texture-adapted, modularized where applicable and converted for Victoria 3. Underlying rights not independently verified."
         }
       ]
     },
@@ -415,6 +423,14 @@
           "license": "CC BY 4.0 (as listed in downloaded metadata)",
           "license_url": "https://creativecommons.org/licenses/by/4.0/",
           "changes": "Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed."
+        },
+        {
+          "model": "Atago-class visual proxy",
+          "creator": "hrd4588",
+          "source": "https://sketchfab.com/3d-models/js-atago-ddg-177-2dc542a92e454270b11168d7b5e864de",
+          "license": "CC BY 4.0 (as listed in downloaded metadata)",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Rescaled, optimized, texture-adapted, modularized where applicable and converted for Victoria 3. Underlying rights not independently verified."
         }
       ]
     },
@@ -444,6 +460,14 @@
           "license": "CC BY 4.0 (as listed in downloaded metadata)",
           "license_url": "https://creativecommons.org/licenses/by/4.0/",
           "changes": "Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed."
+        },
+        {
+          "model": "Yamato-class battleship",
+          "creator": "Ca271m",
+          "source": "https://sketchfab.com/3d-models/ijn-yamato-battleship-381a5874e48c48cd8feec1890437f4bd",
+          "license": "CC BY 4.0 (as listed in downloaded metadata)",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Rescaled, optimized, texture-adapted, modularized where applicable and converted for Victoria 3. Underlying rights not independently verified."
         }
       ]
     },
@@ -542,6 +566,14 @@
           "license": "CC BY 4.0 (as listed in downloaded metadata)",
           "license_url": "https://creativecommons.org/licenses/by/4.0/",
           "changes": "Rescaled, optimized, texture-adapted, rigged/partitioned as applicable and converted for Victoria 3. CC BY listed. Underlying rights not independently verified; owner-managed."
+        },
+        {
+          "model": "Izumo-class visual proxy",
+          "creator": "hrd4588",
+          "source": "https://sketchfab.com/3d-models/js-izumo-ddhcvm-183-a4f51fe27b684cceaf2ceebefc2ffa66",
+          "license": "CC BY 4.0 (as listed in downloaded metadata)",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "changes": "Rescaled, optimized, texture-adapted, modularized where applicable and converted for Victoria 3. Underlying rights not independently verified."
         }
       ]
     },
